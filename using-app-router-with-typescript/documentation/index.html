@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nezox - Cyber Security Company React Nextjs Template</title>
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#introduction" title="Introduction">Introduction</a></li>
+                <li><a href="#getting_started" title="Setup Development Envrionment">Setup Development Environment</a></li>
+                <li><a href="#documenter_cover">Pages and Components Info</a></li>
+                <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+                <li><a href="#run_scss_file" title="Color Change Option">SCSS File</a></li>
+                <li><a href="#credits" title="Credits">Credits</a></li>
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+
+        <header class="site-header navbar-transparent"> 
+            <div class="banner auto-size" style="background-color: #455aa2">
+                <div class="container-fluid">
+                    <h1><strong>Nezox - React</strong>  Documentation</h1>
+                </div>
+            </div>
+        </header>
+        
+        <main class="container-fluid"> 
+            <article class="main-content" role="main">
+                <section id="introduction">
+                    <div class="page-header">
+                        <h3>Introduction</h3>
+                    </div>
+                    <p>Nezox is a Responsive and Clean React Next.js template created for Cyber Security Services Company and independent security services providers. The template is offering 5+ homepage variations design with a blog, blog details other inner pages. It looks beautifully stunning on all types of screens and devices including Windows, Mac, iOS, Android, etc. This has been built with React JS, Next.js, Sass, and Bootstrap 5.x.</p>
+                </section>
+			 
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Setup Development Environment</h3>
+                    </div>
+                    <p>
+                        To kickstart the development of the web app with Nezox, at first need to setup the react development environment.
+                    </p>
+                    <p>Following tools are needed to setup a react dev environment:</p>
+                    <ul>
+                        <li><b>Node JS</b></li>
+                        <p>
+                            NodeJS works as a node package manager behind the scene. It is recommended to download and install the latest version of Node JS from its official site <a href="https://nodejs.org/en/" target="_blank">https://nodejs.org/en/</a>
+                        </p>
+                    </ul>
+                    <div class="page-header">
+                        <h3>Preparation</h3>
+                    </div>
+                    <p>
+                        You'll need to install <a href="https://nodejs.org/en/" target="_blank">Node.js (Recommended Version)</a> (NPM comes along with it) and serve (an NPM package)
+                    </p>
+                    <p>Use command line tool i.e. PowerShell or terminal and navigate to the project(Nezox) root. This is PowerShell in windows and terminal on mac/linux.</p>
+                    <strong>Let's have a look on the setup process:</strong> <br>
+                    <p>Use terminal and navigate to the project root.</p>
+                    <p>Then run : <code class="language-markup">npm install</code></p>
+                    <p>Then run : <code class="language-markup">npm run dev</code></p>
+                    <p>It'll return something like this in the console:</p>
+                    <p>> project@1.5.0 dev drive:\project</p>
+                    <p>> next</p>
+                    <p>[ wait ] starting the development server ...</p>
+                    <p>[ ready ] started server on http://localhost:3000 ...</p>
+                    <p>[ event ] compiled successfully</p>
+                    <p>Now, in the browser go to <a href="http://localhost:3000/">localhost:3000</a></p>
+                    <div class="page-header">
+                        <h3>For Production Build</h3>
+                    </div>
+                    <p>Run : <code class="language-markup">npm run build</code></p>
+                    <p>Then Run : <code class="language-markup">npm run start</code></p>
+                    <p>See the official next.js doc <a href="https://nextjs.org/docs/deployment#other-hosting-options" target="_blank">here</a></p>
+                </section>
+
+                <section id="documenter_cover">
+                    <div class="page-header">
+                        <h3>Pages and Components Info</h3>
+                    </div>
+                    <div id="documenter_buttons"></div>
+					<ul>
+						<li>Home Demo 1 (<b>/src/app/page.tsx</b>)</li>
+						<li>Home Demo 2 (<b>/src/app/home-2/page.tsx</b>)</li>
+						<li>Home Demo 3 (<b>/src/app/home-3/page.tsx</b>)</li>
+						<li>Home Demo 4 (<b>/src/app/home-4/page.tsx</b>)</li>
+						<li>Home Demo 5 (<b>/src/app/home-5/page.tsx</b>)</li>
+						<li>About Us (<b>/src/app/about-us/page.tsx</b>)</li>
+						<li>Etc....</li>
+					</ul>
+		
+                    <h6 style="margin-top:20px"><strong>Common Components:</strong></h6>
+                    <ul>
+                        <li>Navbar (<b>/src/components/Layouts/Navbar.tsx</b>)</li>
+                        <li>NavbarTwo (<b>/src/components/Layouts/NavbarTwo.tsx</b>)</li>
+                        <li>NavbarThree (<b>/src/components/Layouts/NavbarThree.tsx</b>)</li>
+                        <li>NavbarFour (<b>/src/components/Layouts/NavbarFour.tsx</b>)</li>
+                        <li>NavbarFive (<b>/src/components/Layouts/NavbarFive.tsx</b>)</li>
+                        <li>TopHeader (<b>/src/components/Layouts/TopHeader.tsx</b>)</li>
+                        <li>TopHeader Two (<b>/src/components/Layouts/TopHeaderTwo.tsx</b>)</li>
+                        <li>TopHeader Three (<b>/src/components/Layouts/TopHeaderThree.tsx</b>)</li>
+                        <li>Layout (<b>/src/components/Layouts/Layout.tsx</b>)</li>
+                        <li>Footer (<b>/src/components/Layouts/Footer.tsx</b>)</li>
+						<li>GoTop (<b>/src/components/Layouts/GoTop.tsx</b>)</li>
+						<li>GetIn Touch Form (<b>/src/components/Layouts/GetInTouchForm.tsx</b>)</li> 
+						<li>GetIn Touch Form Two (<b>/src/components/Layouts/GetInTouchFormTwo.tsx</b>)</li> 
+						<li>Latest News (<b>/src/components/Layouts/LatestNews.tsx</b>)</li> 
+						<li>Latest News Two (<b>/src/components/Layouts/LatestNewsTwo.tsx</b>)</li> 
+						<li>Our Challenges (<b>/src/components/Layouts/OurChallenges.tsx</b>)</li> 
+						<li>Page Banner (<b>/src/components/Layouts/PageBanner.tsx</b>)</li> 
+						<li>Partners (<b>/src/components/Layouts/Partners.tsx</b>)</li> 
+						<li>Partners (<b>/src/components/Layouts/Partners.tsx</b>)</li> 
+						<li>Partners Two (<b>/src/components/Layouts/PartnersTwo.tsx</b>)</li> 
+						<li>Price Table (<b>/src/components/Layouts/PriceTable.tsx</b>)</li> 
+						<li>Price Table Two (<b>/src/components/Layouts/PriceTableTwo.tsx</b>)</li> 
+						<li>Team Member (<b>/src/components/Layouts/TeamMember.tsx</b>)</li> 
+						<li>Team Member Two (<b>/src/components/Layouts/TeamMemberTwo.tsx</b>)</li> 
+						<li>Testimonials (<b>/src/components/Layouts/Testimonials.tsx</b>)</li> 
+					</ul>
+                </section>
+
+                <section id="dependencies">
+                    <div class="page-header">
+                        <h3>Dependencies</h3>
+                    </div>
+                    <p> Here are the <strong>dependencies</strong> list which being used in the Nezox React Template:</p>
+                    <pre class="line-numbers">
+<code class="language-markup"> 
+"dependencies": {
+    "fslightbox-react": "^1.7.6",
+    "next": "14.2.1",
+    "react": "^18",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18",
+    "react-tabs": "^6.0.2",
+    "sass": "^1.75.0",
+    "swiper": "^11.1.1"
+},
+"devDependencies": {
+    "@types/fslightbox-react": "^1.7.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
+    "typescript": "^5"
+}
+</code>
+                    </pre class="brush:css">
+                </section>
+	 
+				 
+				<section id="run_scss_file">
+                    <div class="page-header">
+                        <h3>How to Run The SCSS File</h3>
+                    </div>
+					<p>Please open the file Visual Studio Code Editor. And follow the video tutorial.</p>
+					<p>Here the Link: <a href="https://www.youtube.com/watch?v=0MWmv1Gvv5w" target="_blank">https://www.youtube.com/watch?v=0MWmv1Gvv5w</a></p>
+                </section>
+	 
+                <section id="credits">
+                    <div class="page-header">
+                        <h3>Credits</h3>
+                    </div>
+                    <strong>Images</strong><br>
+                    <a href="https://unsplash.com/" target="_blank">Unsplash</a><br />
+                    <a href="https://burst.shopify.com/" target="_blank">Burst</a><br />
+                    <a href="https://www.freepik.com/" target="_blank">Freepick</a><br />
+                    <div class="height-15"></div>
+                    <strong>Packages</strong><br>
+                    <a href="https://www.npmjs.com/package/react" target="_blank">React</a><br />
+                    <a href="https://www.npmjs.com/package/next" target="_blank">Next.js</a><br />
+                    <a href="https://www.npmjs.com/package/react-dom" target="_blank">ReactDom</a><br />
+                    <a href="https://getbootstrap.com/docs/4.3/getting-started/download/#npm" target="_blank">Bootstrap</a><br />
+                    <a href="https://www.npmjs.com/package/es6-promise" target="_blank">ES6-Promise</a><br /> 
+                    <a href="https://fonts.google.com/" target="_blank">Google Fonts</a><br />
+                </section>
+                
+                <section id="supports">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">24-Hour Turnaround Support:</h3>
+                    </div>
+					<p>Quick, Dedicated & Professional Support!</p>
+					<p>We only provide support through our ticketing system. Please submit your ticket by visiting the <a href="https://support.envytheme.com/" target="_new">EnvyTheme Support System</a>.</p>
+					<p>For any pre-purchase query, please use live chat on the item demo site also, email, and the item’s comment section on ThemeForest. Thanks!</p>
+                </section>
+            </article>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>Copyright &copy; Nezox. All right reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="footer-menu">
+                            <li><a href="https://support.envytheme.com/" target="_new">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
