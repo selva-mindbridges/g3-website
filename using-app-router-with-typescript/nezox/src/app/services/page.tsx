@@ -11,10 +11,10 @@ export default function Page() {
       <NavbarFive />
 
       <PageBanner
-        pageTitle="Services Style One"
+        pageTitle="VAPT"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Services Style One"
+        activePageText="VAPT"
       />
 
       <div className="feature-area feature-area-two pt-100 pb-70">

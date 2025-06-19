@@ -10,10 +10,10 @@ export default function Page() {
       <NavbarFive />
 
       <PageBanner
-        pageTitle="Solutions"
+        pageTitle="G3 Sec . Ai"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Solutions"
+        activePageText="G3 Sec . Ai"
       />
 
       <SolutionsCard />

@@ -11,10 +11,10 @@ export default function Page() {
       <NavbarFive />
 
       <PageBanner
-        pageTitle="Services Style Two"
+        pageTitle="Professional Services"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Services Style Two"
+        activePageText="Professional Services"
       />
 
       <div className="safety-area pt-100 pb-70">
