@@ -12,10 +12,9 @@ const Protects: React.FC = () => {
             <div className="col-lg-6">
               <div className="protect-content">
                 <div className="protect-title">
-                  <span>Cyber Security Protect</span>
+                  <span>Cybersecurity That Enables Resilience</span>
                   <h2>
-                    Protect Your Website, Web Server, and Web Application for
-                    Helping You Being Threats From The Hacker
+                    From risk assessments to implementation—we cover every step of your cybersecurity journey.
                   </h2>
                 </div>
 
@@ -24,10 +23,9 @@ const Protects: React.FC = () => {
                     <div className="single-challenges overly-one">
                       <div className="overly-two">
                         <i className="flaticon-database"></i>
-                        <h3>Database Security</h3>
+                        <h3>Framework Implementation</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, con sectetur adipiscing
-                          elit sed do.
+                          Align with ISO 27001, SOC 2, and HIPAA using tailored controls and expert support.
                         </p>
                         <span className="flaticon-database"></span>
                       </div>
@@ -38,10 +36,9 @@ const Protects: React.FC = () => {
                     <div className="single-challenges overly-one">
                       <div className="overly-two">
                         <i className="flaticon-application"></i>
-                        <h3>Database Security</h3>
+                        <h3>VAPT Services</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, con sectetur adipiscing
-                          elit sed do.
+                          Identify and remediate vulnerabilities in web, mobile, network, and cloud systems.
                         </p>
                         <span className="flaticon-application"></span>
                       </div>
@@ -52,10 +49,9 @@ const Protects: React.FC = () => {
                     <div className="single-challenges overly-one">
                       <div className="overly-two">
                         <i className="flaticon-security"></i>
-                        <h3>Web Security</h3>
+                        <h3>Policy & Controls</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, con sectetur adipiscing
-                          elit sed do.
+                          Draft, refine, and enforce policies that meet internal and regulatory standards.
                         </p>
                         <span className="flaticon-security"></span>
                       </div>
@@ -66,10 +62,9 @@ const Protects: React.FC = () => {
                     <div className="single-challenges overly-one">
                       <div className="overly-two">
                         <i className="flaticon-security-1"></i>
-                        <h3>Server Security</h3>
+                        <h3>Awareness & Response</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, con sectetur adipiscing
-                          elit sed do.
+                          Train your teams and establish clear processes for incident handling and recovery.
                         </p>
                         <span className="flaticon-security-1"></span>
                       </div>

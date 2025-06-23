@@ -12,10 +12,10 @@ const MainBanner: React.FC = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="banner-content">
-                <span className="top-title">Secure Growth in the Digital Era</span>
-                <h1>Built on Trust and Cybersecurity</h1>
+                <span className="top-title">Secure. Comply. Transform.</span>
+                <h1>Accelerate Growth—Backed by Cyber Resilience and Compliance</h1>
                 <p>
-                Empower your business to thrive securely in a world of digital trust and robust cybersecurity.
+                G3 Cyberspace helps organizations secure their digital landscape, manage third-party risks, and meet evolving compliance demands. From cybersecurity and privacy automation to regulatory readiness and TPRM, we deliver complete protection to drive secure, scalable growth.
                 </p>
 
                 <div className="banner-btn">
