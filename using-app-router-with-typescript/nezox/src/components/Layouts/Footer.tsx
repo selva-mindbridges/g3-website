@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/company/g3-cyberspace-pvt-ltd/" target="_blank">
                       <i className="bx bxl-linkedin-square"></i>
                     </a>
                   </li>

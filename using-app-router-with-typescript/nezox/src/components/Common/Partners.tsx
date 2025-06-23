@@ -38,7 +38,7 @@ const Partners: React.FC = () => {
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
-                    src="/images/partner/partner-1.png"
+                    src="/images/partner/partner-1-1.png"
                     alt="Image"
                     width={140}
                     height={140}
@@ -51,7 +51,7 @@ const Partners: React.FC = () => {
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
-                    src="/images/partner/partner-2.png"
+                    src="/images/partner/partner-2-2.png"
                     alt="Image"
                     width={140}
                     height={140}
@@ -64,7 +64,7 @@ const Partners: React.FC = () => {
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
-                    src="/images/partner/partner-3.png"
+                    src="/images/partner/partner-3-3.png"
                     alt="Image"
                     width={140}
                     height={140}
@@ -77,7 +77,7 @@ const Partners: React.FC = () => {
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
-                    src="/images/partner/partner-4.png"
+                    src="/images/partner/partner-4-4.png"
                     alt="Image"
                     width={140}
                     height={140}
@@ -86,7 +86,7 @@ const Partners: React.FC = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
@@ -110,7 +110,7 @@ const Partners: React.FC = () => {
                   />
                 </a>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>

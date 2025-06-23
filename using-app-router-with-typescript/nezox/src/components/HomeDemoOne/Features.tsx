@@ -14,11 +14,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-testing"></i>
-                    <h3>Pen Testing</h3>
+                    <h3>Consulting Services</h3>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  Cybersecurity & Data Privacy for Trusted Business Protection
                   </p>
                   <div className="feature-shape">
                     <Image
@@ -37,11 +36,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cybercrime"></i>
-                    <h3>Cyber Threat Hunting</h3>
+                    <h3>Professional Services</h3>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  vCISO & vDPO for Strategic Security and Compliance Leadership
                   </p>
                   <div className="feature-shape">
                     <Image
@@ -60,11 +58,81 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cyber-security"></i>
-                    <h3>Security Center</h3>
+                    <h3>VAPT</h3>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                  Vulnerability & Penetration Testing Services for Enhanced Security Assurance
+                  </p>
+                  <div className="feature-shape">
+                    <Image
+                      src="/images/feature-shape.png"
+                      alt="Image"
+                      width={230}
+                      height={202}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-feature overly-one">
+                <div className="overly-two">
+                  <div className="title">
+                    <i className="flaticon-testing"></i>
+                    <h3>Framework Implementation</h3>
+                  </div>
+                  <p>
+                  Implementation services for various global ISO standards & frameworks
+                  </p>
+                  <div className="feature-shape">
+                    <Image
+                      src="/images/feature-shape.png"
+                      alt="Image"
+                      width={230}
+                      height={202}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-feature overly-one">
+                <div className="overly-two">
+                  <div className="title">
+                    <i className="flaticon-cybercrime"></i>
+                    <h3>Privacy Compliance</h3>
+                  </div>
+                  <p>
+                  Roadmap, frameworks & consulting for compliance with global regulations
+                  </p>
+                  <div className="feature-shape">
+                    <Image
+                      src="/images/feature-shape.png"
+                      alt="Image"
+                      width={230}
+                      height={202}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-feature overly-one">
+                <div className="overly-two">
+                  <div className="title">
+                    <i className="flaticon-cyber-security"></i>
+                    <h3>Security Tools</h3>
+                  </div>
+                  <p>
+                  Flagship tool driven with AI to ease compliance with automation.
                   </p>
                   <div className="feature-shape">
                     <Image
