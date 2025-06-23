@@ -12,12 +12,10 @@ const MainBanner: React.FC = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="banner-content">
-                <span className="top-title">World Class Cyber Security</span>
-                <h1>Powerful Protection Easy Recovery</h1>
+                <span className="top-title">Secure Growth in the Digital Era</span>
+                <h1>Built on Trust and Cybersecurity</h1>
                 <p>
-                  Cyber security is the protection from the theft to protect of
-                  our computer systems and networks or being damaged of our
-                  hardware and software.
+                Empower your business to thrive securely in a world of digital trust and robust cybersecurity.
                 </p>
 
                 <div className="banner-btn">

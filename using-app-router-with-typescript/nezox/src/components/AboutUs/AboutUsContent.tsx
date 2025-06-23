@@ -26,9 +26,7 @@ const AboutUsContent: React.FC = () => {
                 <div className="about-title">
                   <span>About Us</span>
                   <h2>
-                    Without Stopping For a Moment We Give You Best Technology
-                    Experience Discussing From Our Expertise to Stop Threats
-                    Being Theft or Damaged.
+                  At G3 Cyberspace, we empower businesses with expert solutions in cybersecurity, data privacy, and compliance—helping them navigate the digital landscape with confidence.
                   </h2>
                 </div>
 
@@ -41,86 +39,75 @@ const AboutUsContent: React.FC = () => {
 
                   <TabPanel>
                     <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Placeat atque quibusdam fuga natus non necessitatibus
-                      eveniet maiores nostrum esse ut voluptates sint dolores,
-                      voluptatum consequatur ad est enim perferendis
-                      reprehenderit.
+                    {`G3 Cyberspace brings years of hands-on expertise in cybersecurity, data privacy, and compliance. We've helped businesses protect digital assets and meet evolving security standards.`}
                     </p>
 
                     <ul>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Trusted Partner
+                        Over a decade of cybersecurity consulting experience
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Product Security
+                        Proven track record across multiple industries
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        System Security
+                        Certified experts in ISO, GDPR, HIPAA, and more
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Operational Security
+                        Delivered 100+ successful security projects globally
                       </li>
                     </ul>
                   </TabPanel>
 
                   <TabPanel>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don&apos;t look even slightly believable. If you are going to
-                      use a passage
+                    We combine technical excellence with a strategic mindset to deliver tailored, business-aligned security solutions. Clients choose us for our reliability, transparency, and long-term value.
                     </p>
 
                     <ul>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Product Security
+                        Customized solutions for unique business needs
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Operational Security
+                        Client-first approach with measurable impact
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Trusted Partner
+                        Trusted by startups, enterprises, and government sectors
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        System Security
+                        Continuous support and proactive risk management
                       </li>
                     </ul>
                   </TabPanel>
 
                   <TabPanel>
                     <p>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas molestias excepturi sint
-                      occaecati cupiditate non provident.
+                    Our methodology focuses on understanding your business, assessing risk, and implementing scalable solutions. We guide you through every stage of your cybersecurity and compliance journey.
                     </p>
 
                     <ul>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Trusted Partner
+                        Consultative discovery and risk assessment
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Product Security
+                        End-to-end implementation with clear milestones
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        System Security
+                        Compliance-driven yet business-friendly frameworks
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Operational Security
+                        Ongoing optimization and maturity improvements
                       </li>
                     </ul>
                   </TabPanel>
