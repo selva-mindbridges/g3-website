@@ -142,10 +142,11 @@ const Footer: React.FC = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                Copyright &copy; {currentYear} Nezox. Designed{" "}
+                Copyright &copy; {currentYear} G3 CyberSpace.
+                 {/* Designed{" "}
                 <a href="https://envytheme.com/" target="_blank">
                   EnvyTheme
-                </a>
+                </a> */}
               </p>
             </div>
 

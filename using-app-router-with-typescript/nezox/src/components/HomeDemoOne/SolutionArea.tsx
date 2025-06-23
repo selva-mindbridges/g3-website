@@ -13,10 +13,9 @@ const SolutionArea: React.FC = () => {
             <div className="col-lg-6">
               <div className="solution-content">
                 <div className="solution-title">
-                  <span>All-in Solution</span>
+                  <span>Always-On Expertise That Grows With You</span>
                   <h2>
-                    Our Experts Are Providing and Planning 24/7 Technical
-                    Support Services With Product and Security Cnsultation.
+                    Flexible, expert-driven support to guide your cybersecurity and compliance journey.
                   </h2>
                 </div>
 
@@ -26,13 +25,11 @@ const SolutionArea: React.FC = () => {
                       <div className="overly-two">
                         <h3>
                           <Link href="/solutions/details">
-                            Product Consultation
+                            Strategic Advisory Support
                           </Link>
                         </h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                          Guidance on security strategy, control implementation, and audit readiness—delivered by certified experts 
                         </p>
                         <span>01</span>
                       </div>
@@ -44,13 +41,11 @@ const SolutionArea: React.FC = () => {
                       <div className="overly-two">
                         <h3>
                           <Link href="/solutions/details">
-                            Security Consultation
+                            Policy & Documentation Review
                           </Link>
                         </h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                          Review and align your internal policies, procedures, and compliance documentation to meet evolving regulatory expectations and audit benchmarks.
                         </p>
                         <span>02</span>
                       </div>
@@ -62,13 +57,11 @@ const SolutionArea: React.FC = () => {
                       <div className="overly-two">
                         <h3>
                           <Link href="/solutions/details">
-                            24/7 Technical Support
+                            Retainer-Based Advisory Support
                           </Link>
                         </h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                          Partner with us on a retainer model to access ongoing support across compliance planning, security posture reviews, board reporting, and operational decision-making.
                         </p>
                         <span>03</span>
                       </div>

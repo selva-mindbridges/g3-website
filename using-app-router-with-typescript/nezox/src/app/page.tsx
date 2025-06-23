@@ -25,7 +25,7 @@ export default function Home() {
         <AboutUsContent />
       </div>
 
-      <OurChallenges />
+      {/* <OurChallenges /> */}
 
       <Services />
 

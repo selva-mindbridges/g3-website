@@ -26,7 +26,7 @@ const AboutUsContent: React.FC = () => {
                 <div className="about-title">
                   <span>About Us</span>
                   <h2>
-                  At G3 Cyberspace, we empower businesses with expert solutions in cybersecurity, data privacy, and compliance—helping them navigate the digital landscape with confidence.
+                  Securing What Drives Your Business—Systems, People, and Trust
                   </h2>
                 </div>
 
@@ -39,75 +39,77 @@ const AboutUsContent: React.FC = () => {
 
                   <TabPanel>
                     <p>
-                    {`G3 Cyberspace brings years of hands-on expertise in cybersecurity, data privacy, and compliance. We've helped businesses protect digital assets and meet evolving security standards.`}
+                    {`At G3 Cyberspace, we help organizations navigate complex cybersecurity, data protection, and compliance demands with confidence. From securing digital infrastructure to managing third-party risks, our experts deliver tailored, actionable solutions across your entire ecosystem.
+With deep domain knowledge and hands-on implementation experience, we empower businesses to:
+.`}
                     </p>
 
                     <ul>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Over a decade of cybersecurity consulting experience
+                        Build trust with secure systems and compliant practices
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Proven track record across multiple industries
+                        Embed privacy and security into operations by design
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Certified experts in ISO, GDPR, HIPAA, and more
+                        Evaluate and reduce third-party and contractual risks
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Delivered 100+ successful security projects globally
+                        Prepare for audits and scale securely
                       </li>
                     </ul>
                   </TabPanel>
 
                   <TabPanel>
                     <p>
-                    We combine technical excellence with a strategic mindset to deliver tailored, business-aligned security solutions. Clients choose us for our reliability, transparency, and long-term value.
+                    Our team blends technical depth with regulatory insight to deliver results that align with your business goals. With certifications like CISSP, CISM, and ISO Lead Auditor—and hands-on experience across industries—we help you navigate complex cybersecurity and compliance challenges with clarity and confidence.
                     </p>
 
                     <ul>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Customized solutions for unique business needs
+                        Industry-tested frameworks and real-world implementation
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Client-first approach with measurable impact
+                        Proven track record across fintech, SaaS, healthcare, and more
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Trusted by startups, enterprises, and government sectors
+                        Advisory to execution—under one roof
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Continuous support and proactive risk management
+                        Scalable services for startups, enterprises, and cross-border entities
                       </li>
                     </ul>
                   </TabPanel>
 
                   <TabPanel>
                     <p>
-                    Our methodology focuses on understanding your business, assessing risk, and implementing scalable solutions. We guide you through every stage of your cybersecurity and compliance journey.
+                    We believe security and privacy should be embedded—not bolted on. Our approach is adaptive, outcome-driven, and grounded in global best practices.
                     </p>
 
                     <ul>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Consultative discovery and risk assessment
+                        Risk-first: We assess what matters most to your business
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        End-to-end implementation with clear milestones
+                        Customized: No one-size-fits-all templates—solutions tailored to your context
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Compliance-driven yet business-friendly frameworks
+                        Continuous: We support you beyond audits, ensuring sustained readiness
                       </li>
                       <li>
                         <i className="bx bx-check-circle"></i>
-                        Ongoing optimization and maturity improvements
+                        Collaborative: We work as an extension of your internal team
                       </li>
                     </ul>
                   </TabPanel>

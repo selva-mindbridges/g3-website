@@ -14,10 +14,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-testing"></i>
-                    <h3>Consulting Services</h3>
+                    <h3>Cybersecurity & Data Privacy for Trusted Business Protection</h3>
                   </div>
                   <p>
-                  Cybersecurity & Data Privacy for Trusted Business Protection
+                  Implement ISO 27001, SOC 2, HIPAA, and other standards through gap assessments, control design, policy development, and audit prep.
                   </p>
                   <div className="feature-shape">
                     <Image
@@ -36,10 +36,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cybercrime"></i>
-                    <h3>Professional Services</h3>
+                    <h3>Virtual CISO / DPO Services</h3>
                   </div>
                   <p>
-                  vCISO & vDPO for Strategic Security and Compliance Leadership
+                  Get expert-led cybersecurity and privacy guidance through flexible vCISO/vDPO models—covering strategy, governance, and compliance.
                   </p>
                   <div className="feature-shape">
                     <Image
@@ -58,10 +58,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cyber-security"></i>
-                    <h3>VAPT</h3>
+                    <h3>Data Privacy Implementation</h3>
                   </div>
                   <p>
-                  Vulnerability & Penetration Testing Services for Enhanced Security Assurance
+                  Implement privacy-by-design, ROPA, DSAR handling, and compliance with GDPR, DPDP, PDPL, and more.
                   </p>
                   <div className="feature-shape">
                     <Image
@@ -85,10 +85,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-testing"></i>
-                    <h3>Framework Implementation</h3>
+                    <h3>Regulatory & Legal Advisory</h3>
                   </div>
                   <p>
-                  Implementation services for various global ISO standards & frameworks
+                  Draft, review, and align security and privacy policies, DPAs, NDAs, and compliance documents for audit and legal assurance.
                   </p>
                   <div className="feature-shape">
                     <Image
@@ -107,10 +107,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cybercrime"></i>
-                    <h3>Privacy Compliance</h3>
+                    <h3>Penetration Testing (VAPT)</h3>
                   </div>
                   <p>
-                  Roadmap, frameworks & consulting for compliance with global regulations
+                  Simulate real-world attacks to identify vulnerabilities across web, mobile, APIs, cloud, and infrastructure.
                   </p>
                   <div className="feature-shape">
                     <Image
@@ -129,10 +129,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cyber-security"></i>
-                    <h3>Security Tools</h3>
+                    <h3>Awareness & Training Programs</h3>
                   </div>
                   <p>
-                  Flagship tool driven with AI to ease compliance with automation.
+                  Deliver role-based security and privacy workshops to build internal accountability and readiness across teams.
                   </p>
                   <div className="feature-shape">
                     <Image
