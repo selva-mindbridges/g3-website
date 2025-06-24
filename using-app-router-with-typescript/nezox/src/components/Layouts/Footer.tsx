@@ -23,19 +23,21 @@ const Footer: React.FC = () => {
                 </Link>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  consec tetur adipiscing.
+                  Empowering organizations worldwide  
+
+                  to navigate cybersecurity, data protection,  
+
+                  and compliance with confidence. 
                 </p>
 
                 <ul className="social-icon">
-                  <li>
+                  {/* <li>
                     <a href="https://www.facebook.com/" target="_blank">
                       <i className="bx bxl-facebook"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/g3cyberspace?igsh=cXUyenR0amQzMjFt" target="_blank">
                       <i className="bx bxl-instagram"></i>
                     </a>
                   </li>
@@ -44,11 +46,11 @@ const Footer: React.FC = () => {
                       <i className="bx bxl-linkedin-square"></i>
                     </a>
                   </li>
-                  <li>
-                    <a href="https://twitter.com/" target="_blank">
+                  {/* <li>
+                  <a href="https://twitter.com/" target="_blank">
                       <i className="bx bxl-twitter"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -60,11 +62,11 @@ const Footer: React.FC = () => {
                 <ul className="address">
                   <li className="location">
                     <i className="bx bxs-location-plus"></i>
-                    6890 Blvd, The Bronx, NY 1058 New York, USA
+                    4th floor, Tek Towers, Rajiv Gandhi Salai, OMR, Customs Colony, Sakthi Nagar, Thoraipakkam, Tamil Nadu 600097 
                   </li>
                   <li>
                     <i className="bx bxs-envelope"></i>
-                    <a href="mailto:hello@nezox.com">hello@nezox.com</a>
+                    <a href="mailto:hello@nezox.com"> info@g3cyberspace.com </a>
                     <a href="#" target="_blank">
                       skype: example
                     </a>
@@ -80,27 +82,27 @@ const Footer: React.FC = () => {
 
             <div className="col-lg-3 col-md-6">
               <div className="single-footer-widget">
-                <h3>Solution</h3>
+                <h3>Services</h3>
 
                 <ul className="import-link">
                   <li>
-                    <Link href="/solutions/details">Secure Private Cloud</Link>
+                    <Link href="/solutions/details">Cybersecurity Services </Link>
                   </li>
                   <li>
-                    <Link href="/solutions/details">Online Backup</Link>
+                    <Link href="/solutions/details">Data protection services </Link>
                   </li>
                   <li>
-                    <Link href="/solutions/details">Secure Websites</Link>
+                    <Link href="/solutions/details">VAPT </Link>
                   </li>
                   <li>
-                    <Link href="/solutions/details">Cyber-Security</Link>
+                    <Link href="/solutions/details">Professional Services </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/solutions/details">Enterprise Networks</Link>
                   </li>
                   <li>
                     <Link href="/solutions/details">Collaboration</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -112,10 +114,10 @@ const Footer: React.FC = () => {
                 <ul className="import-link">
                   <li>
                     <Link href="/services/details">
-                      Cybersecurity Strategies
+                      Blogs 
                     </Link>
                   </li>
-                  <li>
+                 {/* <li>
                     <Link href="/services/details">Security Advisories</Link>
                   </li>
                   <li>
@@ -123,13 +125,13 @@ const Footer: React.FC = () => {
                   </li>
                   <li>
                     <Link href="/blog">Blog</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/solutions">Case Studies</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/contact">User Guides</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -155,9 +157,9 @@ const Footer: React.FC = () => {
                 <li>
                   <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/terms-conditions">Terms & Conditions</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

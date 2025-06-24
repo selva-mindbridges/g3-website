@@ -104,17 +104,17 @@ export const menus = [
   },
   {
     label: "Products",
-    link: "#",
-    submenu: [
-      {
-        label: "G3 Sec . Ai",
-        link: "/solutions/",
-      },
-      {
-        label: "Solutions Details",
-        link: "/solutions/details/",
-      },
-    ],
+    link: "https://soltrisk.io/",
+    // submenu: [
+    //   {
+    //     label: "G3 Sec . Ai",
+    //     link: "/solutions/",
+    //   },
+    //   {
+    //     label: "Solutions Details",
+    //     link: "/solutions/details/",
+    //   },
+    // ],
   },
   // {
   //   label: "Blog",

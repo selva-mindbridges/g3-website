@@ -419,7 +419,7 @@ Header Area Style
 Navbar Area Style
 ======================================================*/
 .navbar-area {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: #FFF;
 }
 .navbar-area .main-nav {
   padding-top: 0;
@@ -439,7 +439,7 @@ Navbar Area Style
 .navbar-area .main-nav nav .navbar-nav .nav-item a {
   font-size: 17px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.8);
+  color: #000;
   text-transform: capitalize;
   transition: all ease 0.5s;
   margin-left: 0;
@@ -457,10 +457,13 @@ Navbar Area Style
   margin-left: -2px;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #ffffff;
+  color: #e21f36;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #ffffff;
+  color: #e21f36;
+}
+.navbar-area .main-nav nav .navbar-nav .nav-item a.active:hover {
+  color: #e21f36;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu {
   position: absolute;
@@ -482,6 +485,7 @@ Navbar Area Style
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li {
   position: relative;
   padding: 0;
+  
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
   font-size: 15px;
@@ -514,9 +518,15 @@ Navbar Area Style
   left: 100%;
   top: 0;
 }
+.navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu:hover {
+  left: 100%;
+  top: 0;
+  color: black;
+}
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li:last-child a {
   border-bottom: none;
 }
+
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   position: absolute;
   left: -98%;
@@ -661,7 +671,7 @@ Navbar Area Style
   width: 100%;
   z-index: 999;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  background-color: #000219;
+  background-color: #FFF;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
@@ -1779,6 +1789,11 @@ Footer Top Area Style
 }
 .single-footer-widget .social-icon {
   line-height: 1;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .single-footer-widget .social-icon li {
   display: inline-block;
