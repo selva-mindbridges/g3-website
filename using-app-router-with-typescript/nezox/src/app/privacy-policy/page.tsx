@@ -2,10 +2,10 @@ import React from "react";
 import NavbarFive from "../../components/Layouts/NavbarFive";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/Layouts/Footer";
-
+import classes from "./style.module.css"
 export default function Page() {
-    const now = new Date();
-    const formattedDate = now.toLocaleDateString("en-US", {
+  const now = new Date();
+  const formattedDate = now.toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric",
@@ -26,7 +26,7 @@ export default function Page() {
           <div className="privacy-policy">
             <div className="title">
               <h2>G3 Privacy Policy</h2>
-               <p>This policy was last updated {formattedDate}.</p>
+              <p>This policy was last updated {formattedDate}.</p>
             </div>
 
             <div className="privacy-content">
@@ -41,10 +41,10 @@ export default function Page() {
               <p>
                 In this Privacy Policy, “personal data” is any data which relates to an individual who may be identified from that data, or from a combination of a set of data, and other information which is or may be in possession of us, for instance information about your identity and contact details (such as name, email-ID, contact number).
               </p><br></br>
-               <h3>Your rights in relation to personal data</h3>
+              <h3>Your rights in relation to personal data</h3>
               <ul>
                 <li>
-                 To access the personal data we hold about you.
+                  To access the personal data we hold about you.
                 </li>
                 <li>
                   To have your personal data corrected, for example, if it is incomplete or incorrect.
@@ -56,7 +56,7 @@ export default function Page() {
                   To restrict or object to the processing of personal data or request erasing personal data (in certain circumstances and subject to applicable law)
                 </li>
                 <li>
-                   To receive a copy of the personal data which you have provided to us (in certain circumstances and subject to applicable law)
+                  To receive a copy of the personal data which you have provided to us (in certain circumstances and subject to applicable law)
                 </li>
               </ul>
             </div>
@@ -77,11 +77,11 @@ export default function Page() {
                 <li>
                   Complying with applicable local or foreign law, regulation, policy, voluntary codes, directive.
                 </li>
-                  <li>
-                Establishing, exercising, or defending legal rights in connection with legal proceedings (including any prospective legal proceedings) and seeking professional or legal advice in relation to such legal proceedings.
-              </li>
+                <li>
+                  Establishing, exercising, or defending legal rights in connection with legal proceedings (including any prospective legal proceedings) and seeking professional or legal advice in relation to such legal proceedings.
+                </li>
               </ul>
-          
+
             </div>
 
             <div className="privacy-content">
@@ -107,7 +107,20 @@ export default function Page() {
               </p>
               <br></br>
               <h3>Contact Details</h3>
-              <p>If you have any questions regarding this privacy policy or the protection of your personal data, you may reach out to our company representative at info@g3cyberspace.com.</p>
+              <p>
+                If you have any questions regarding this privacy policy or the protection of your personal data, you may reach out to our company representative at &nbsp;
+                 <a
+                  href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@g3cyberspace.com
+"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`${classes.emailCyber}`} 
+                >
+                   info@g3cyberspace.com
+                </a>.
+              </p>
+
+
             </div>
           </div>
         </div>
