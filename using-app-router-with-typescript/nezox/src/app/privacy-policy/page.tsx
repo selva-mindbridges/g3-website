@@ -2,7 +2,7 @@ import React from "react";
 import NavbarFive from "../../components/Layouts/NavbarFive";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/Layouts/Footer";
-
+import classes from "./style.module.css"
 export default function Page() {
   const now = new Date();
   const formattedDate = now.toLocaleDateString("en-US", {
@@ -108,15 +108,15 @@ export default function Page() {
               <br></br>
               <h3>Contact Details</h3>
               <p>
-                If you have any questions regarding this privacy policy or the protection of your personal data, you may reach out to our company representative at
-                <a
+                If you have any questions regarding this privacy policy or the protection of your personal data, you may reach out to our company representative at &nbsp;
+                 <a
                   href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@g3cyberspace.com
 "
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ marginLeft: '5px', color: '#007bff', textDecoration: 'underline' }}
+                  className={`${classes.emailCyber}`} 
                 >
-                  info@g3cyberspace.com
+                   info@g3cyberspace.com
                 </a>.
               </p>
 
