@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               <div className="single-footer-widget">
                 <Link href="/" className="logo">
                   <Image
-                    src="/images/logo.png"
+                    src="/images/logo-01.png"
                     alt="Image"
                     width={150}
                     height={42}

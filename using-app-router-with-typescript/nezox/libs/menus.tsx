@@ -84,21 +84,22 @@ export const menus = [
     link: "#",
     submenu: [
       {
-        label: "VAPT",
-        link: "/services/",
+        label: "Cybersecurity Assessments",
+        link: "/services/3/",
+      },
+      {
+        label: "Data Production Services",
+        link: "/services/details/",
       },
       {
         label: "Professional Services",
         link: "/services/2/",
       },
-      // {
-      //   label: "Services Style Three",
-      //   link: "/services/3/",
-      // },
-      // {
-      //   label: "Service Details",
-      //   link: "/services/details/",
-      // },
+      {
+        label: "VAPT",
+        link: "/services/",
+      },
+      
     ],
   },
   {

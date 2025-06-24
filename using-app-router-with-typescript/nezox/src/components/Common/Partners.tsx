@@ -1,5 +1,5 @@
 "use client";
-  
+
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -77,13 +77,36 @@ const Partners: React.FC = () => {
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <Image
-                    src="/images/partner/partner-4-4.png"
+                    src="/images/partner/Mindbridge-black-logo.png"
                     alt="Image"
                     width={140}
                     height={140}
                   />
                 </a>
               </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image
+                    src="/images/partner/E Logo 2.png"
+                    alt="Image"
+                    width={140}
+                    height={140}
+                  />
+                </a>
+              </div>
+              {/* <div className="partner-item">
+                <a href="#" target="_blank">
+                  <Image
+                    src="/images/partner/partner-4-4.png"
+                    alt="Image"
+                    width={140}
+                    height={140}
+                  />
+                </a>
+              </div> */}
             </SwiperSlide>
 
             {/* <SwiperSlide>
