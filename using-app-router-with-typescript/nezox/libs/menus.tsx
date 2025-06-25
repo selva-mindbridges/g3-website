@@ -88,7 +88,7 @@ export const menus = [
         link: "/services/3/",
       },
       {
-        label: "Data Production Services",
+        label: "Data Protection Services",
         link: "/services/details/",
       },
       {

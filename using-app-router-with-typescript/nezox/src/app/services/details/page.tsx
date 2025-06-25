@@ -10,10 +10,10 @@ export default function Page() {
       <NavbarFive />
 
       <PageBanner
-        pageTitle="Services Details"
+        pageTitle="Data Protection Services"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Services Details"
+        activePageText="Data Protection Services"
       />
 
       <ServicesDetailsContent />
