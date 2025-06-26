@@ -29,7 +29,7 @@ const MainBanner: React.FC = () => {
             <div className="col-lg-6 col-md-12">
               <div className="banner-image">
                 <Image
-                  src="/images/banner/banner-img-1.jpg"
+                  src="/images/home-pic.png"
                   alt="image"
                   width={900}
                   height={745}

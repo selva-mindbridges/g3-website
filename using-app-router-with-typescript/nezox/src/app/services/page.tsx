@@ -239,7 +239,7 @@ export default function Page() {
         </div>
       </div>
 
-      <ServicesCard />
+      {/* <ServicesCard /> */}
 
       <Footer />
     </>

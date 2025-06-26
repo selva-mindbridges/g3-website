@@ -7,6 +7,7 @@ import Protects from "../../components/AboutUs/Protects";
 import Testimonials from "../../components/Common/Testimonials";
 import Partners from "../../components/Common/Partners";
 import Footer from "../../components/Layouts/Footer";
+import Solution from "@/components/HomeDemoThree/Solution";
 
 export default function Page() {
   return (
@@ -20,17 +21,19 @@ export default function Page() {
         activePageText="About Us"
       />
 
-      <div className="pt-100 pb-70">
-        <AboutUsContent />
-      </div>
+      <Solution />
 
-      <OurChallenges />
+      {/* <div className="pt-100 pb-70">
+        <AboutUsContent />
+      </div> */}
+
+      {/* <OurChallenges />
 
       <Protects />
 
-      <Testimonials />
+      <Testimonials /> */}
 
-      <Partners />
+      {/* <Partners /> */}
 
       <Footer />
     </>

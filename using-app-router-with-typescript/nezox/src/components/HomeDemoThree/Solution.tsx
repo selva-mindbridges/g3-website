@@ -12,10 +12,9 @@ const Solution: React.FC = () => {
             <div className="col-lg-6">
               <div className="solution-content">
                 <div className="solution-title">
-                  <span>All-in Solution</span>
+                  {/* <span>All-in Solution</span> */}
                   <h2>
-                    Our experts are providing and planning 24/7 technical
-                    support services with product and security consultation.
+                    Why Join Us
                   </h2>
                 </div>
 
@@ -23,11 +22,9 @@ const Solution: React.FC = () => {
                   <div className="col-lg-12 col-md-6">
                     <div className="single-solution overly-one">
                       <div className="overly-two">
-                        <h3>Product Consultation</h3>
+                        <h3>Dynamic and Collaborative Culture:</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                          Thrive in an innovative environment that values teamwork and fresh ideas
                         </p>
                         <span>01</span>
                       </div>
@@ -37,11 +34,9 @@ const Solution: React.FC = () => {
                   <div className="col-lg-12 col-md-6">
                     <div className="single-solution overly-one">
                       <div className="overly-two">
-                        <h3>Security Consultation</h3>
+                        <h3> Career Growth Opportunities: </h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                         Unlock your potential with continuous learning and professional development.
                         </p>
                         <span>02</span>
                       </div>
@@ -51,11 +46,9 @@ const Solution: React.FC = () => {
                   <div className="col-lg-12 col-md-6 offset-md-3 offset-lg-0">
                     <div className="single-solution overly-one">
                       <div className="overly-two">
-                        <h3>24/7 Technical Support</h3>
+                        <h3>Pioneering Solutions:</h3>
                         <p>
-                          Lorem ipsum dolor sit amet, consetetur sadipscing
-                          elitr, sed diam nonumy eirmod tempor invidunt ut
-                          labore et dolore magna aliquyam erat.
+                         Be part of a team driving advancements in data privacy, cybersecurity, and compliance.
                         </p>
                         <span>03</span>
                       </div>

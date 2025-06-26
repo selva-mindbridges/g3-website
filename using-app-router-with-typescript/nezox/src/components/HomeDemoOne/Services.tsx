@@ -7,7 +7,7 @@ import Image from "next/image";
 const Services: React.FC = () => {
   return (
     <>
-      <div className="services-area pt-100 pb-70">
+      {/* <div className="services-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
             <span>Cyber Security Services</span>
@@ -128,7 +128,7 @@ const Services: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

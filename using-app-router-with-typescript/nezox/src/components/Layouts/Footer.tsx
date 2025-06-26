@@ -67,15 +67,15 @@ const Footer: React.FC = () => {
                   <li>
                     <i className="bx bxs-envelope"></i>
                     <a href="mailto:hello@nezox.com"> info@g3cyberspace.com </a>
-                    <a href="#" target="_blank">
+                    {/* <a href="#" target="_blank">
                       skype: example
-                    </a>
+                    </a> */}
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="bx bxs-phone-call"></i>
                     <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
                     <a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
