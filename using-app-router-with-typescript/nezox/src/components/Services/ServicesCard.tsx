@@ -31,7 +31,7 @@ const ServicesCard: React.FC = () => {
                 <div className="services-content">
                   <h3 className="text-white">
                     {/* <Link href="/services/details">ISO 27001 implementation</Link> */}
-                    ISO 27001 implementation
+                    ISO 27001
                   </h3>
                   <p>
                     Achieve robust information security management with ISO
@@ -61,7 +61,7 @@ const ServicesCard: React.FC = () => {
                 <div className="services-content">
                   <h3 className="text-white">
                     {/* <Link href="/services/details">PCI DSS compliance</Link> */}
-                    PCI DSS compliance
+                    PCI DSS
                   </h3>
                   <p>
                     Ensure your organization meets PCI DSS standards for payment
@@ -91,7 +91,7 @@ const ServicesCard: React.FC = () => {
                 <div className="services-content">
                   <h3 className="text-white">
                     {/* <Link href="/services/details">SOC 2 implementation services</Link> */}
-                    SOC 2 implementation services
+                    SOC 2
                   </h3>
                   <br />
                   <p>Achieve compliance with SOC 2 standards effortlessly.</p>
@@ -119,7 +119,7 @@ const ServicesCard: React.FC = () => {
                 <div className="services-content">
                   <h3 className="text-white">
                     {/* <Link href="/services/details">GDPR compliance</Link> */}
-                    GDPR compliance
+                    GDPR
                   </h3>
                   <br />
                   <p>Navigate the complexities of GDPR with expert guidance.</p>
@@ -147,7 +147,7 @@ const ServicesCard: React.FC = () => {
                 <div className="services-content">
                   <h3 className="text-white">
                     {/* <Link href="/services/details">ISO 42001 implementation service</Link> */}
-                    ISO 42001 implementation service
+                    ISO 42001
                   </h3>
                   <p>
                     Achieve compliance with ISO 42001 standards to enhance
@@ -177,7 +177,7 @@ const ServicesCard: React.FC = () => {
                 <div className="services-content">
                   <h3 className="text-white">
                     {/* <Link href="/services/details">HIPPA implementation</Link> */}
-                    HIPPA implementation
+                    HIPPA
                   </h3>
                   <p>
                     Ensure compliance with HIPPA standards for healthcare
@@ -207,7 +207,7 @@ const ServicesCard: React.FC = () => {
                 <div className="services-content">
                   <h3 className="text-white">
                     {/* <Link href="/services/details">ISO 9001 implementation</Link> */}
-                    ISO 9001 implementation
+                    ISO 9001
                   </h3>
                   <p>
                     Achieve quality management excellence with ISP 9001

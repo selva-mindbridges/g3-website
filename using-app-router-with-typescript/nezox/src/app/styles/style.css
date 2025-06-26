@@ -875,9 +875,9 @@ Banner Area Style
 .banner-image {
   text-align: center;
 }
-.banner-image img {
+/* .banner-image img {
   animation: border-transform 10s linear infinite alternate forwards;
-}
+} */
 
 @keyframes border-transform {
   0%, 100% {

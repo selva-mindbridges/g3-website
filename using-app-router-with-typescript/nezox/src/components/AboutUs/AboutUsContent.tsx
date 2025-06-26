@@ -66,7 +66,7 @@ With deep domain knowledge and hands-on implementation experience, we empower bu
 
                   <TabPanel>
                     <p>
-                    Our team blends technical depth with regulatory insight to deliver results that align with your business goals. With certifications like CISSP, CISM, and ISO Lead Auditor—and hands-on experience across industries—we help you navigate complex cybersecurity and compliance challenges with clarity and confidence.
+                    Our team brings over 20 years of deep industry experience in cybersecurity and compliance, combining strategic insight with hands-on execution to align with your business goals. Having supported organizations across sectors, we help you navigate complex challenges with clarity and confidence.
                     </p>
 
                     <ul>

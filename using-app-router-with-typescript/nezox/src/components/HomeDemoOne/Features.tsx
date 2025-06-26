@@ -14,7 +14,7 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-testing"></i>
-                    <h3>Cybersecurity & Data Privacy for Trusted Business Protection</h3>
+                    <h3>Cybersecurity & Data Privacy Services</h3>
                   </div>
                   <p>
                   Implement ISO 27001, SOC 2, HIPAA, and other standards through gap assessments, control design, policy development, and audit prep.
@@ -129,7 +129,7 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cyber-security"></i>
-                    <h3>Awareness & Training Programs</h3>
+                    <h3>Training & Workshops</h3>
                   </div>
                   <p>
                   Deliver role-based security and privacy workshops to build internal accountability and readiness across teams.

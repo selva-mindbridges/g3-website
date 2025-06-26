@@ -55,7 +55,7 @@ export default function Page() {
         <div className="container">
           <div className="section-title">
             <span>Our Approach</span>
-            <h2>How Do We Implement Cybersecurity Frameworks Effectively?</h2>
+            <h2>Our Approach to Cybersecurity Framework Implementation</h2>
           </div>
 
           <div className="row">

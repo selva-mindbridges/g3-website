@@ -11,11 +11,12 @@ export default function Page() {
       <NavbarFive />
 
       <PageBanner
-        pageTitle="Contact Us"
+        pageTitle="Contact Us" 
         homePageUrl="/"
         homePageText="Home"
         activePageText="Contact Us"
       />
+
 
       <ContactForm />
 

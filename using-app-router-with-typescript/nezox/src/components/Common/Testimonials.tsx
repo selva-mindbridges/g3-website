@@ -60,11 +60,7 @@ const Testimonials: React.FC = () => {
                 <div className="testimonials-item">
                   <i className="flaticon-quote"></i>
                   <p>
-                    “Nam liber tempor cum soluta nobis eleifend option congue
-                    nihil imperdiet doming id quod mazim placerat facer possim
-                    assum. Lorem ipsum dolor sit amet, consectetuer adipiscing
-                    elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                    dolore magna aliquam erat volutpat.”
+                    G3 Cyberspace guided us through a smooth ISO 27001:2022 transition with clear, hands-on support across risk assessment, documentation, and audit prep. Their expertise made certification seamless.”
                   </p>
 
                   <ul>
@@ -85,8 +81,8 @@ const Testimonials: React.FC = () => {
                     </li>
                   </ul>
 
-                  <h3>Juhon Anderson</h3>
-                  <span>Manager</span>
+                  <h3>Ahmed Iqbal Sheriff, VP</h3>
+                  <span> 20Cube Logistics</span>
                 </div>
               </SwiperSlide>
             </Swiper>

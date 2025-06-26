@@ -25,9 +25,9 @@ export const menus = [
     //   },
     // ],
   },
-  {
-    label: "About Us",
-    link: "/about-us/",
+  // {
+  //   label: "Carrers",
+  //   link: "/about-us/",
     // submenu: [
     //   {
     //     label: "About Us",
@@ -78,7 +78,7 @@ export const menus = [
     //     link: "/privacy-policy/",
     //   },
     // ],
-  },
+  // },
   {
     label: "Services",
     link: "#",
@@ -146,4 +146,9 @@ export const menus = [
     label: "Contact",
     link: "/contact/",
   },
+
+   {
+    label: "Carrers",
+    link: "/about-us/",
+   }
 ];
