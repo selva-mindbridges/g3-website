@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import classes from "./style.module.css"
 
 const MainBanner: React.FC = () => {
   return (
@@ -27,12 +28,13 @@ const MainBanner: React.FC = () => {
             </div>
 
             <div className="col-lg-6 col-md-12">
-              <div className="banner-image">
+              <div className={`banner-image`}>
                 <Image
-                  src="/images/home-pic.png"
+                  src="/images/cybersecurity-concept-illustration.jpg"
                   alt="image"
                   width={900}
                   height={745}
+                  className={`${classes.bgImgRadius}`}
                 />
               </div>
             </div>
