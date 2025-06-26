@@ -23,14 +23,14 @@ const PageBanner: React.FC<PageBannerProps> = ({
           <div className="page-title-content">
             <h2>{pageTitle}</h2>
 
-            <ul>
+            {/* <ul>
               <li>
                 <Link href={homePageUrl}>
                   <i className="bx bx-home"></i> {homePageText}
                 </Link>
               </li>
               <li className="active">{activePageText}</li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
