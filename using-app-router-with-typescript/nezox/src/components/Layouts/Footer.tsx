@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
                   </li>
                   <li>
                     <i className="bx bxs-envelope"></i>
-                    <a href="mailto:hello@nezox.com"> info@g3cyberspace.com </a>
+                    <a href="mailto:info@g3cyberspace.com"> info@g3cyberspace.com </a>
                     {/* <a href="#" target="_blank">
                       skype: example
                     </a> */}
