@@ -231,7 +231,7 @@ Default Btn Area Style*/
   text-transform: capitalize;
 }
 .default-btn:hover {
-  background-color: #ff5a00;
+  background-color: #69bfa4;
   color: #ffffff;
 }
 
@@ -296,7 +296,7 @@ Section Title Area Style*/
 .section-title span {
   display: block;
   margin-bottom: 12px;
-  color: #e21f36;
+  color: #4096b5;
   font-weight: 600;
 }
 .section-title h2 {
@@ -334,7 +334,7 @@ Header Area Style
 }
 
 .top-header {
-  background-color: #e21f36;
+  background-color: #4096b5;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -460,13 +460,13 @@ Navbar Area Style
   margin-left: -2px;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
-  color: #e21f36;
+  color: #000000;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item a.active:hover {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu {
   position: absolute;
@@ -483,7 +483,7 @@ Navbar Area Style
   border-radius: 0;
   transition: all 0.2s ease-in-out;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  border-top: 2px solid #e21f36;
+  border-top: 2px solid #4096b5;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li {
   position: relative;
@@ -512,10 +512,10 @@ Navbar Area Style
   display: none;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   left: 100%;
@@ -621,16 +621,18 @@ Navbar Area Style
   color: #000000;
 }
 .navbar-area.navbar-area-two .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #e21f36;
+  /* color: #e21f36; */
+  color:  #4096b5;
 }
 .navbar-area.navbar-area-two .main-nav nav .navbar-nav .nav-item a.active {
-  color: #e21f36;
+  /* color: #e21f36; */
+  color: #4096b5;
 }
 .navbar-area.navbar-area-two .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
   color: #000219;
 }
 .navbar-area.navbar-area-two .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area.navbar-area-two .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #e21f36;
@@ -933,7 +935,7 @@ Feature Area Style
   /* background-color: #e21f36; */
   /* background-color: #00487A; */
   /* background-color: #EDB402; */
-  background-color: #3E5C27;
+  background-color: #69bfa4;
 }
 .feature-area.feature-area-two .single-feature:hover i {
   color: #ffffff;
@@ -984,7 +986,7 @@ Feature Area Style
   top: 0;
   font-size: 50px;
   line-height: 1;
-  color: #e21f36;
+  color: #4096b5;
   transition: all ease 0.5s;
 }
 .single-feature .title h3 {
@@ -1233,7 +1235,7 @@ Our Challenges Area Style
 }
 .single-challenges i {
   font-size: 50px;
-  color: #e21f36;
+  color: #4096b5;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
@@ -1339,7 +1341,7 @@ Solution Area Style
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
-  color: #e21f36;
+  color: #4096b5;
 }
 .solution-title h2 {
   font-size: 30px;
@@ -1564,7 +1566,7 @@ Protect Area Style
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
-  color: #e21f36;
+  color: #4096b5;
 }
 .protect-content .protect-title h2 {
   font-size: 30px;
@@ -1636,7 +1638,7 @@ Testimonials Area Style
 }
 
 .testimonials-item i {
-  color: #e21f36;
+  color: #4096b5;
   font-size: 50px;
   line-height: 1;
   display: block;
@@ -1657,7 +1659,7 @@ Testimonials Area Style
 }
 .testimonials-item ul li i {
   font-size: 18px;
-  color: #e21f36;
+  color: #4096b5;
 }
 .testimonials-item h3 {
   color: #ffffff;
@@ -1765,7 +1767,7 @@ Blog Area Style
   color: #000000;
 }
 .single-blog .blog-content h3 a:hover {
-  color: #e21f36;
+  color: #69bfa4;
 }
 
 /*
@@ -1831,7 +1833,7 @@ Footer Top Area Style
   transform: translateY(-2px);
 }
 .single-footer-widget .social-icon li a:hover i {
-  background-color: #e21f36;
+  background-color: #4096b5;
 }
 .single-footer-widget h3 {
   color: #ffffff;
@@ -1857,7 +1859,7 @@ Footer Top Area Style
 }
 .single-footer-widget .address .location i {
   position: absolute;
-  color: #e21f36;
+  color: #4096b5;
   left: 0;
   top: 5px;
   font-size: 25px;
@@ -1884,7 +1886,7 @@ Footer Top Area Style
 }
 .single-footer-widget .address li i {
   position: absolute;
-  color: #e21f36;
+  color: #4096b5;
   left: 0;
   top: 5px;
   font-size: 25px;
@@ -1902,7 +1904,7 @@ Footer Top Area Style
   left: 0;
   width: 11px;
   height: 11px;
-  background-color: #e21f36;
+  background-color: #4096b5;
   transition: all ease 0.5s;
 }
 .single-footer-widget .import-link li:last-child {
@@ -1948,7 +1950,7 @@ Copy Right Area Style
   color: #ffffff;
 }
 .copy-right-area .footer-menu li a:hover {
-  color: #e21f36;
+  color: #69bfa4;
 }
 
 /*
@@ -1964,7 +1966,7 @@ About Area Style
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
-  color: #e21f36;
+  color: #4096b5;
 }
 .about-content .about-title h2 {
   font-size: 30px;
@@ -1991,8 +1993,8 @@ About Area Style
   border-right: none;
 }
 .about-content .react-tabs__tab-list li.react-tabs__tab--selected {
-  border-color: #e21f36;
-  color: #e21f36;
+  border-color: #4096b5;
+  color: #4096b5;
 }
 .about-content .react-tabs__tab-panel p {
   margin-bottom: 0;
@@ -2013,7 +2015,7 @@ About Area Style
   top: 4px;
   left: 0;
   font-size: 18px;
-  color: #e21f36;
+  color: #4096b5;
 }
 .about-content .react-tabs__tab-panel ul li:last-child {
   margin-bottom: 0;
@@ -2381,7 +2383,7 @@ Approach Area Style
   width: 70px;
   height: 70px;
   line-height: 70px;
-  background-color: #e21f36;
+  background-color: #4096b5;
   border-radius: 50%;
   position: absolute;
   top: -35px;
@@ -2397,7 +2399,7 @@ Approach Area Style
   width: 80px;
   height: 80px;
   line-height: 80px;
-  border: 1px solid #e21f36;
+  border: 1px solid #4096b5;
   border-radius: 50%;
 }
 .single-approach-box h3 {
@@ -4790,7 +4792,7 @@ Main Contact Area Style
 }
 .main-contact-area .contact-info .address .location i {
   position: absolute;
-  color: #e21f36;
+  color: #4096b5;
   left: 0;
   top: 5px;
   font-size: 45px;
@@ -4819,7 +4821,7 @@ Main Contact Area Style
 }
 .main-contact-area .contact-info .address li i {
   position: absolute;
-  color: #e21f36;
+  color: #4096b5;
   left: 0;
   top: 0;
   font-size: 45px;
@@ -4861,8 +4863,8 @@ Main Contact Area Style
   transform: translateY(-2px);
 }
 .main-contact-area .contact-info .sidebar-follow-us .social-wrap li a:hover i {
-  border-color: #e21f36;
-  background-color: #e21f36;
+  border-color: #4096b5;
+  background-color: #4096b5;
   color: #ffffff;
 }
 .main-contact-area label {
@@ -5037,7 +5039,7 @@ Go Top Style*/
   cursor: pointer;
   bottom: 20px;
   right: 20px;
-  background-color: #e21f36;
+  background-color: #3E5C27;
   z-index: 999;
   width: 40px;
   text-align: center;
@@ -5069,14 +5071,14 @@ Go Top Style*/
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #e21f36;
+  /* background-color: #e21f36; */
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
 }
 .go-top:hover {
   color: #ffffff;
-  background-color: #e21f36;
+  background-color: #69bfa4;
 }
 .go-top:hover::before {
   opacity: 1;
