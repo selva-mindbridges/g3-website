@@ -13,9 +13,9 @@ const MainBanner: React.FC = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="banner-content">
-                <span className="top-title">Secure. Comply. Transform.</span>
+                <span className={`top-title ${classes.homeHeadContent}`}>Secure. Comply. Transform.</span>
                 <h1>Accelerate Growth—Backed by Cyber Resilience and Compliance</h1>
-                <p>
+                <p className={` ${classes.homeSubContent}`}>
                 G3 Cyberspace helps organizations secure their digital landscape, manage third-party risks, and meet evolving compliance demands. From cybersecurity and privacy automation to regulatory readiness and TPRM, we deliver complete protection to drive secure, scalable growth.
                 </p>
 
@@ -27,7 +27,7 @@ const MainBanner: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-12">
+            {/* <div className="col-lg-6 col-md-12">
               <div className={`banner-image`}>
                 <Image
                   src="/images/cybersecurity-concept-illustration.jpg"
@@ -37,7 +37,7 @@ const MainBanner: React.FC = () => {
                   className={`${classes.bgImgRadius}`}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

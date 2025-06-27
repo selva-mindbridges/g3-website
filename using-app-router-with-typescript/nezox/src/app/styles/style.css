@@ -775,8 +775,9 @@ Banner Area Style
   padding-bottom: 120px;
 }
 .banner-area.bg-1 {
-  /* background: transparent url(/images/banner/banner-bg-1.jpg) left top no-repeat; */
-  background: #e2e2e2;
+  /* background: transparent url(/images/banner/bannerImage.jpg) left top no-repeat; */
+   background: transparent url(/images/banner/BannerImageHome.png) left top no-repeat;
+   background-size: cover;
 }
 .banner-area.bg-2 {
   background-image: url(/images/banner/banner-bg-2.jpg);
