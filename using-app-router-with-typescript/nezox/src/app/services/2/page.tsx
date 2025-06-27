@@ -130,7 +130,7 @@ export default function Page() {
       <br />
       <br />
 
-      <div className="safety-area pt-100 pb-70">
+      {/* <div className="safety-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
             <span>Cybersecurity Services</span>
@@ -273,7 +273,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
