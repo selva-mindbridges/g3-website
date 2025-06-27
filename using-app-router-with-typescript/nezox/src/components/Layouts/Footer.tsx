@@ -86,16 +86,16 @@ const Footer: React.FC = () => {
 
                 <ul className="import-link">
                   <li>
-                    <Link href="/solutions/details">Cybersecurity Services </Link>
+                    <Link href="/services/3/">Cybersecurity Assessments </Link>
                   </li>
                   <li>
-                    <Link href="/solutions/details">Data protection services </Link>
+                    <Link href="/services/details/">Data Protection Services </Link>
                   </li>
                   <li>
-                    <Link href="/solutions/details">VAPT </Link>
+                    <Link href="/services/2/">Professional Services  </Link>
                   </li>
                   <li>
-                    <Link href="/solutions/details">Professional Services </Link>
+                    <Link href="/services/">VAPT</Link>
                   </li>
                   {/* <li>
                     <Link href="/solutions/details">Enterprise Networks</Link>
