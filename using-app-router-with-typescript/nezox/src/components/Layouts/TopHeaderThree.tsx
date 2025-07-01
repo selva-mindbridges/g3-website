@@ -5,7 +5,7 @@ import React from "react";
 const TopHeaderThree: React.FC = () => {
   return (
     <>
-      <div className="top-header">
+      {/* <div className="top-header">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-sm-6">
@@ -43,7 +43,7 @@ const TopHeaderThree: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

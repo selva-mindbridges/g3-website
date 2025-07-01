@@ -15,7 +15,7 @@ export default function Page() {
       <NavbarFive />
 
       <PageBanner
-        pageTitle="About Us"
+        pageTitle="Careers"
         homePageUrl="/"
         homePageText="Home"
         activePageText="About Us"
