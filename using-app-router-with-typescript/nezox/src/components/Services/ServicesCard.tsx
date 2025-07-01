@@ -3,6 +3,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import classes from "./style.module.css";
 
 const ServicesCard: React.FC = () => {
   return (
@@ -12,6 +16,41 @@ const ServicesCard: React.FC = () => {
           <div className="section-title">
             <span>Cybersecurity Services</span>
             <h2>Our Framework Implementation Services</h2>
+          </div>
+
+          {/* add  carousel */}
+          <div className="certificate-carousel mb-5">
+            <Swiper
+              spaceBetween={30}
+              breakpoints={{
+                0: { slidesPerView: 2 },
+                576: { slidesPerView: 3 },
+                768: { slidesPerView: 4 },
+                1200: { slidesPerView: 5 },
+              }}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: true,
+                pauseOnMouseEnter: true,
+              }}
+              loop={true}
+              modules={[Autoplay]}
+              className="certificate-swiper"
+            >
+              {[...Array(8)].map((item, idx) => (
+                <SwiperSlide key={idx}>
+                  <div className={classes.certificateItem}>
+                    <Image
+                      src={`/images/carousel/certificate-${idx + 1}.png`}
+                      alt={`Certificate ${idx + 1}`}
+                      width={140}
+                      height={140}
+                      style={{ objectFit: "contain" }}
+                    />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
 
           <div className="row">
