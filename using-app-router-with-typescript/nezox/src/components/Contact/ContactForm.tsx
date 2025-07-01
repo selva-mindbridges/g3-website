@@ -111,8 +111,7 @@ const ContactForm: React.FC = () => {
                   <li>
                     <i className="bx bxs-envelope"></i>
                     <span>Email</span>
-                    <a href="mailto:hello@nezox.com">info@g3cyberspace.com
-</a>
+                    <a href="mailto:info@g3cyberspace.com">info@g3cyberspace.com</a>
                     {/* <a href="#">skype: example</a> */}
                   </li>
                 </ul>
