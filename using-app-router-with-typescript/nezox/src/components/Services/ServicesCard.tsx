@@ -4,8 +4,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/navigation";
 import classes from "./style.module.css";
 
 const ServicesCard: React.FC = () => {
@@ -28,8 +30,43 @@ const ServicesCard: React.FC = () => {
                 768: { slidesPerView: 4 },
                 1200: { slidesPerView: 5 },
               }}
+              loop={true}
+              navigation={true}
               autoplay={{
                 delay: 3000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true
+              }}
+              modules={[Navigation, Autoplay]}
+              className={classes.certificateSwiper}
+            >
+              {[...Array(8)].map((item, idx) => (
+                <SwiperSlide key={idx}>
+                  <div className={classes.certificateItem}>
+                    <Image
+                      src={`/images/carousel/certificate-${idx + 1}.png`}
+                      alt={`Certificate ${idx + 1}`}
+                      width={140}
+                      height={140}
+                      style={{ objectFit: "contain" }}
+                    />
+                  </div>
+
+                </SwiperSlide>
+              ))}
+            </Swiper>
+
+
+            {/* <Swiper
+              spaceBetween={30}
+              breakpoints={{
+                0: { slidesPerView: 2 },
+                576: { slidesPerView: 3 },
+                768: { slidesPerView: 4 },
+                1200: { slidesPerView: 5 },
+              }}
+              autoplay={{
+                delay: 300,
                 disableOnInteraction: true,
                 pauseOnMouseEnter: true,
               }}
@@ -50,7 +87,7 @@ const ServicesCard: React.FC = () => {
                   </div>
                 </SwiperSlide>
               ))}
-            </Swiper>
+            </Swiper> */}
           </div>
 
           <div className="row">
