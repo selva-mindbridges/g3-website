@@ -148,7 +148,7 @@ export const menus = [
   },
 
    {
-    label: "Carrers",
+    label: "Careers",
     link: "/about-us/",
    }
 ];

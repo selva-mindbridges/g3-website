@@ -1808,8 +1808,8 @@ Footer Top Area Style
 }
 .social-icon{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 .single-footer-widget .social-icon li {
   display: inline-block;

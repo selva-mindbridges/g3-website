@@ -93,27 +93,27 @@ const ContactForm: React.FC = () => {
               <div className="contact-info">
                 <h3>Our contact details</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod.
+                  Empowering organizations worldwide to navigate cybersecurity, data protection, and compliance with confidence.
                 </p>
 
                 <ul className="address">
                   <li className="location">
                     <i className="bx bxs-location-plus"></i>
                     <span>Address</span>
-                    6890 Blvd, The Bronx, NY 1058 New York, USA
+                    4th floor, Tek Towers, Rajiv Gandhi Salai, OMR, Customs Colony, Sakthi Nagar, Thoraipakkam, Tamil Nadu 600097
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="bx bxs-phone-call"></i>
                     <span>Phone</span>
                     <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
                     <a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
-                  </li>
+                  </li> */}
                   <li>
                     <i className="bx bxs-envelope"></i>
                     <span>Email</span>
-                    <a href="mailto:hello@nezox.com">hello@nezox.com</a>
-                    <a href="#">skype: example</a>
+                    <a href="mailto:hello@nezox.com">info@g3cyberspace.com
+</a>
+                    {/* <a href="#">skype: example</a> */}
                   </li>
                 </ul>
 
@@ -121,26 +121,32 @@ const ContactForm: React.FC = () => {
                   <h3>Follow us:</h3>
 
                   <ul className="social-wrap">
-                    <li>
+                    {/* <li>
                       <a href="https://twitter.com/" target="_blank">
                         <i className="bx bxl-twitter"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a href="https://www.instagram.com/g3cyberspace?igsh=cXUyenR0amQzMjFt" target="_blank">
                         <i className="bx bxl-instagram"></i>
                       </a>
                     </li>
-                    <li>
+
+                     <li>
+                    <a href="https://www.linkedin.com/company/g3-cyberspace-pvt-ltd/" target="_blank">
+                      <i className="bx bxl-linkedin-square"></i>
+                    </a>
+                  </li>
+                    {/* <li>
                       <a href="https://www.facebook.com/" target="_blank">
                         <i className="bx bxl-facebook"></i>
                       </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a href="https://www.youtube.com/" target="_blank">
                         <i className="bx bxl-youtube"></i>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

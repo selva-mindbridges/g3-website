@@ -71,14 +71,14 @@ const Solution: React.FC = () => {
           </div>
         </div>
 
-        <div className="solution-shape-left shape-three">
+        {/* <div className="solution-shape-left shape-three">
           <Image
             src="/images/solution-shape-left.png"
             alt="Image"
             width={153}
             height={144}
           />
-        </div>
+        </div> */}
       </div>
     </>
   );
