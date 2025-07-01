@@ -75,7 +75,7 @@ const NavbarFive: React.FC = () => {
                 <div className="others-option">
                   <div className="get-quote">
                     <Link href="/contact" className="default-btn">
-                      <span>Get a Quote</span>
+                      <span>Contact Us</span>
                     </Link>
                   </div>
                 </div>
