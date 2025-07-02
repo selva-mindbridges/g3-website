@@ -125,7 +125,7 @@ ul {
 
 .form-control {
   height: 50px;
-  color: #e21f36;
+  color: #000000;
   border: 1px solid #ebebeb;
   background-color: transparent;
   border-radius: 0;
@@ -144,7 +144,7 @@ ul {
   background-color: transparent;
   box-shadow: unset;
   outline: 0;
-  border: 1px solid #e21f36;
+  border: 1px solid #69bfa4;
 }
 
 .form-control:hover:focus, .form-control:focus {
@@ -779,7 +779,7 @@ Banner Area Style
 }
 .banner-area.bg-1 {
   /* background: transparent url(/images/banner/bannerImage.jpg) left top no-repeat; */
-   background: transparent url(/images/banner/BannerImageHome.png) left top no-repeat;
+   background: transparent url(/images/banner/BannerImageHome-1.png) left top no-repeat;
    background-size: cover;
 }
 .banner-area.bg-2 {
@@ -871,13 +871,15 @@ Banner Area Style
   font-weight: 600;
 }
 .banner-content h1 {
-  font-size: 60px;
+  font-size: 47px;
   font-weight: 900;
   margin-bottom: 25px;
 }
 .banner-content p {
   margin-bottom: 30px;
+  color: #000;
   font-size: 16.5px;
+  font-weight: 400;
 }
 
 .banner-image {
@@ -2522,12 +2524,12 @@ Page Title Area Style
   right: 0;
   width: 100%;
   height: 100%;
-  background-image: url(/images/page-bg-shape.png);
+  background-image: url(/images/cyber-03.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-  opacity: 0.1;
+  /* opacity: 0.1; */
 }
 .page-title-area .page-title-content {
   position: relative;

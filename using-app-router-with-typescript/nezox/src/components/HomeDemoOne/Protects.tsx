@@ -77,7 +77,7 @@ const Protects: React.FC = () => {
             <div className="col-lg-6">
               <div className="protect-img">
                 <Image
-                  src="/images/protect-img.jpg"
+                  src="/images/Cybersecurity That Enables Resilience.png"
                   alt="Image"
                   width={600}
                   height={700}
