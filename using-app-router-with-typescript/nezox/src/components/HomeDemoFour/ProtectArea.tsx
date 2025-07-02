@@ -23,7 +23,7 @@ const ProtectArea: React.FC = () => {
             <div className="col-lg-6">
               <div className="protect-content">
                 <div className="protect-title">
-                  <span>Cybersecurity Protect</span>
+                  <span>Cyber security Protect</span>
                   <h2>
                     Protect your website, web server, and web application for
                     helping you being threats from the hacker
