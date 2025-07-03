@@ -1493,9 +1493,9 @@ Protect Area Style
 .protect-area .col-lg-6 .row .col-lg-6:nth-child(2) .single-challenges {
   margin-top: 30px;
   /* background-color: #e21f36; */
-  /* background-color: #00487A; */
+  background-color: #00487A;
   /* background-color: #EDB402; */
-  background-color: #3E5C27;
+  /* background-color: #3E5C27; */
 }
 .protect-area .col-lg-6 .row .col-lg-6:nth-child(2) .single-challenges i {
   color: #ffffff;
@@ -1509,9 +1509,9 @@ Protect Area Style
 .protect-area .col-lg-6 .row .col-lg-6:nth-child(3) .single-challenges {
   margin-top: -30px;
   /* background-color: #e21f36; */
-  /* background-color: #00487A; */
+  background-color: #00487A;
   /* background-color: #EDB402; */
-  background-color: #3E5C27;
+  /* background-color: #3E5C27; */
 }
 .protect-area .col-lg-6 .row .col-lg-6:nth-child(3) .single-challenges i {
   color: #ffffff;
