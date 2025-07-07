@@ -13,9 +13,9 @@ import "../app/styles/style.css";
 import "../app/styles/responsive.css";
 
 import type { Metadata } from "next";
-import { Herr_Von_Muellerhoff, Lato } from "next/font/google"; 
+import { Lato } from "next/font/google"; 
 import GoTop from "@/components/Layouts/GoTop";
-import { link } from "fs";
+
 
 const lato = Lato({ 
   weight: ["100", "300", "400", "700", "900"],
