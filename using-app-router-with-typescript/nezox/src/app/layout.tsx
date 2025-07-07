@@ -13,17 +13,49 @@ import "../app/styles/style.css";
 import "../app/styles/responsive.css";
 
 import type { Metadata } from "next";
-import { Lato } from "next/font/google"; 
+import { Herr_Von_Muellerhoff, Lato } from "next/font/google"; 
 import GoTop from "@/components/Layouts/GoTop";
+import { link } from "fs";
 
 const lato = Lato({ 
   weight: ["100", "300", "400", "700", "900"],
   subsets: ["latin"] 
 });
 
+// export const metadata: Metadata = {
+//   title: "G3 CyberSpace",
+//   description: "G3 CyberSpace Cyber Security Company",
+//   icons: "/favicon.ico" 
+// };
+
 export const metadata: Metadata = {
   title: "G3 CyberSpace",
   description: "G3 CyberSpace Cyber Security Company",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "64x64",
+      },
+    ],
+  },
+
+//   icons: {
+//   icon: [
+//     { url: "/favicon.ico", sizes: "any", type: "image/x-icon" },  
+//     { url: "/favicon-16x16.ico", sizes: "16x16", type: "image/x-icon" },     
+//     { url: "/favicon-32x32.ico", sizes: "32x32", type: "image/x-icon" },     
+//     { url: "/favicon-48x48.ico", sizes: "48x48", type: "image/x-icon" },     
+//     { url: "/favicon-64x64.ico", sizes: "64x64", type: "image/x-icon" },     
+//     { url: "/favicon-96x96.ico", sizes: "96x96", type: "image/x-icon" },     
+//     { url: "/favicon-128x128.ico", sizes: "128x128", type: "image/x-icon" }, 
+//     { url: "/favicon-192x192.ico", sizes: "192x192", type: "image/x-icon" }, 
+//     { url: "/favicon-256x256.ico", sizes: "256x256", type: "image/x-icon" }, 
+//     { url: "/favicon-384x384.ico", sizes: "384x384", type: "image/x-icon" },
+//     { url: "/favicon-512x512.ico", sizes: "512x512", type: "image/x-icon" }, 
+//   ],
+// }
+
 };
 
 export default function RootLayout({
