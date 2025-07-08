@@ -61,10 +61,10 @@ export const menus = [
     //     label: "Recover Password",
     //     link: "/recover-password/",
     //   },
-    //   {
-    //     label: "Faq",
-    //     link: "/faq/",
-    //   },
+      // {
+      //   label: "Faq",
+      //   link: "/faq/",
+      // },
     //   {
     //     label: "Coming Soon",
     //     link: "/coming-soon/",
@@ -104,12 +104,14 @@ export const menus = [
   },
   {
     label: "Products",
-    link: "https://soltrisk.io/",
-    // submenu: [
-    //   {
-    //     label: "G3 Sec . Ai",
-    //     link: "/solutions/",
-    //   },
+    // link: "https://soltrisk.io/",
+    link:"#",
+    submenu: [
+      {
+        label: "TRACS Landing page",
+        link: "/solutions/",
+      },
+    ]
     //   {
     //     label: "Solutions Details",
     //     link: "/solutions/details/",
