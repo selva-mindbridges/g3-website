@@ -19,10 +19,10 @@ const FaqContent: React.FC = () => {
             <div className="col-lg-6">
               <div className="faq-img">
                 <Image
-                  src="/images/faq-img.png"
-                  alt="Image"
+                  
+                  alt="Image"src="/images/blue-faq.jpg"
                   width={595}
-                  height={569}
+                  height={565}
                 />
               </div>
             </div>
