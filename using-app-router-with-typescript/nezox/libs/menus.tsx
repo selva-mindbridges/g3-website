@@ -151,4 +151,9 @@ export const menus = [
     label: "Careers",
     link: "/about-us/",
    }
+   ,
+    {
+         label: "Faq",
+         link: "/faq/",
+    }
 ];
