@@ -11,7 +11,7 @@ const SolutionsCard: React.FC = () => {
 
      <div className="about-us-area">
         <div className="container mt-5">
-          <h2  className={`${classes.textCenter}`}>TRACS Landing Page</h2>
+          <h2>"Simplify Complex Vendor Risk with TRACS-Smarter Assessments, Strong Assurance"</h2>
           <div className="row align-items-center">
             <br />
             <br />
@@ -209,7 +209,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/leadership.jpeg"
+                  src="/images/TRACS/Smart questionnaire.jpg"
                   alt="Image"
                   width={498}
                   height={386}
@@ -266,7 +266,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/virtual ciso.webp"
+                  src="/images/TRACS/Risk Based Questionnaire Scoping.jpg"
                   alt="Image"
                   width={498}
                   height={386}
@@ -286,7 +286,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/vdpo.webp"
+                  src="/images/TRACS/AI Driven Evidence Review.jpg"
                   alt="Image"
                   width={498}
                   height={386}
@@ -341,7 +341,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/virtual ciso.webp"
+                  src="/images/TRACS/POst contract compliance monitoring.png"
                   alt="Image"
                   width={498}
                   height={386}
@@ -358,7 +358,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/leadership.jpeg"
+                  src="/images/TRACS/Global COmpliance support.png"
                   alt="Image"
                   width={498}
                   height={386}
@@ -413,7 +413,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/virtual ciso.webp"
+                  src="/images/TRACS/360 degree compliance.png "
                   alt="Image"
                   width={498}
                   height={386}
@@ -430,7 +430,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/leadership.jpeg"
+                  src="/images/TRACS/Enterprise ready integrations & API.jpg"
                   alt="Image"
                   width={498}
                   height={386}
@@ -485,7 +485,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/virtual ciso.webp"
+                  src="/images/TRACS/Visual Dashboards & reporting.jpg"
                   alt="Image"
                   width={498}
                   height={386}
@@ -502,7 +502,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/vdpo.webp"
+                  src="/images/TRACS/User roles & workflow automation.jpg"
                   alt="Image"
                   width={498}
                   height={386}
