@@ -11,7 +11,7 @@ const SolutionsCard: React.FC = () => {
 
      <div className="about-us-area">
         <div className="container mt-5">
-          <h2>"Simplify Complex Vendor Risk with TRACS-Smarter Assessments, Strong Assurance"</h2>
+          <h2>Simplify Complex Vendor Risk with TRACS-Smarter Assessments, Strong Assurance</h2>
           <div className="row align-items-center">
             <br />
             <br />
