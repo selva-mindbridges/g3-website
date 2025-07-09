@@ -10,7 +10,7 @@ export default function Page() {
       <NavbarFive />
 
       <PageBanner
-        pageTitle="TRACS Landing page"
+        pageTitle="Third Party Risk Assessment & Compliance Suite"
         homePageUrl="/"
         homePageText="Home"
         activePageText="TRACS Landing page"
