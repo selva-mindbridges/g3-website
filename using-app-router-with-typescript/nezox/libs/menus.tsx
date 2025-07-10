@@ -108,11 +108,11 @@ export const menus = [
     link:"#",
     submenu: [
       {
-        label: "TRACS Landing page",
+        label: "G3 Sec.Ai",
         link: "#",
         submenu: [
           {
-            label: "TRACS Landing page2",
+            label: "TRACS",
             link: "/solutions/",
           },
         ],
