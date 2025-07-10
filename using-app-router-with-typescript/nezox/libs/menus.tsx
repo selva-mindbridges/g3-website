@@ -109,7 +109,13 @@ export const menus = [
     submenu: [
       {
         label: "TRACS Landing page",
-        link: "/solutions/",
+        link: "#",
+        submenu: [
+          {
+            label: "TRACS Landing page2",
+            link: "/solutions/",
+          },
+        ],
       },
     ]
     //   {
