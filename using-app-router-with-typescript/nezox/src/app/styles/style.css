@@ -483,6 +483,7 @@ Navbar Area Style
   visibility: hidden;
   z-index: 99;
   display: block;
+  /* padding: 5px 0; */
   padding: 0;
   background-color: #ffffff;
   border: none;
@@ -507,6 +508,7 @@ Navbar Area Style
   text-transform: capitalize;
   display: block;
   font-weight: 600;
+  margin-bottom: 2px;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a i {
   float: right;
@@ -539,7 +541,7 @@ Navbar Area Style
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   position: absolute;
   left: -98%;
-  top: 20px !important;
+  top: 0px !important;
   opacity: 0 !important;
   visibility: hidden !important;
 }
@@ -556,18 +558,18 @@ Navbar Area Style
   font-weight: 600;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1 !important;
   visibility: visible !important;
-  top: -4px !important;
+  top: -2px !important;
 }
 .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu li:hover .dropdown-menu {
   opacity: 1 !important;
@@ -647,13 +649,13 @@ Navbar Area Style
   color: #000219;
 }
 .navbar-area.navbar-area-two .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area.navbar-area-two .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area.navbar-area-two .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #e21f36;
+  color: #4096b5;
 }
 .navbar-area.navbar-area-two .others-option .cart-icon a i {
   color: #000000;
@@ -5327,4 +5329,15 @@ Overly Area Style*/
   background-color: #eee;
   height: 1px;
   display: block;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* Specific rule for TRACS Landing page2 and similar nested dropdown items */
+.navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-menu li a:hover {
+  color: #4096b5 !important;
+}
+.navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-menu li a:focus {
+  color: #4096b5 !important;
+}
+.navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu .dropdown-menu li a.active {
+  color: #4096b5 !important;
+}

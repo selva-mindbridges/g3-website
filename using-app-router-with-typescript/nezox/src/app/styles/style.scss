@@ -46,7 +46,8 @@ Default Style
 ============================*/
 
 $body-color: #4b5280;
-$main-color: #e21f36;
+// $main-color: #e21f36;
+$main-color: #4096b5;
 $optional-color: #ff5a00;
 $heading-color: #000219;
 $white-color: #ffffff;
@@ -497,7 +498,7 @@ Navbar Area Style
 						visibility: hidden;
 						z-index: 99;
 						display: block;
-						padding: 0;
+						padding: 5px 0;
 						background-color: $white-color;
 						border: none;
 						border-radius: 0;
@@ -509,17 +510,18 @@ Navbar Area Style
 							position: relative;
 							padding: 0;
 
-							a {
-								font-size: 15px;
-								color: $heading-color;
-								position: relative;
-								padding: 10px 15px;
-								border-bottom: 1px dashed #eeeeee;
-								margin-left: 0;
-								margin-right: 0;
-								text-transform: capitalize;
-								display: block;
-								font-weight: 600;
+													a {
+							font-size: 15px;
+							color: $heading-color;
+							position: relative;
+							padding: 10px 15px;
+							border-bottom: 1px dashed #eeeeee;
+							margin-left: 0;
+							margin-right: 0;
+							text-transform: capitalize;
+							display: block;
+							font-weight: 600;
+							margin-bottom: 2px;
 
 								i {
 									float: right;
@@ -549,7 +551,7 @@ Navbar Area Style
 							.dropdown-menu {
 								position: absolute;
 								left: -98%;
-								top: 20px !important;
+								top: 0px !important;
 								opacity: 0 !important;
 								visibility: hidden !important;
 								
@@ -582,14 +584,14 @@ Navbar Area Style
 								.dropdown-menu {
 									opacity: 1 !important;
 									visibility: visible !important;
-									top: -4px !important;
+									top: 0px !important;
 
 									li {
 										&:hover {
 											.dropdown-menu {
 												opacity: 1 !important;
 												visibility: visible !important;
-												top: -20px !important;
+												top: 0px !important;
 											}
 										}
 									}
@@ -700,6 +702,23 @@ Navbar Area Style
 											}
 											&.active {
 												color: $main-color;
+											}
+										}
+										.dropdown-menu {
+											li {
+												a {
+													color: $heading-color;
+													
+													&:hover {
+														color: $main-color;
+													}
+													&:focus {
+														color: $main-color;
+													}
+													&.active {
+														color: $main-color;
+													}
+												}
 											}
 										}
 									}
