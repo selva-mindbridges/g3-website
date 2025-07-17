@@ -13,11 +13,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-testing"></i>
-                    <h3>Pen Testing</h3>
+                    <h3>AI-Powered Risk Intelligence</h3>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    Our AI analyzes control gaps and vendor behavior to highlight key risks and drive smarter decisions across your ecosystem.
                   </p>
                 </div>
               </div>
@@ -28,11 +27,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cybercrime"></i>
-                    <h3>Cyber Threat Hunting</h3>
+                    <h3>Continuous Assurance Engine</h3>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    Automate control validation and evidence checks in real time — keeping your compliance posture always visible and audit-ready.
                   </p>
                 </div>
               </div>
@@ -43,11 +41,10 @@ const Features: React.FC = () => {
                 <div className="overly-two">
                   <div className="title">
                     <i className="flaticon-cyber-security"></i>
-                    <h3>Security Center</h3>
+                    <h3>Unified Risk & Compliance</h3>
                   </div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    Assess, monitor, and report in one platform. G3SEC.ai replaces siloed tools with a centralized, AI-powered compliance workspace.
                   </p>
                 </div>
               </div>

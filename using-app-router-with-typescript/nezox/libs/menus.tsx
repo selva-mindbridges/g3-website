@@ -7,10 +7,10 @@ export const menus = [
     //     label: "Home Demo - 1",
     //     link: "/",
     //   },
-    //   {
-    //     label: "Home Demo - 2",
-    //     link: "/home-2/",
-    //   },
+      // {
+      //   label: "Home Demo - 2",
+      //   link: "/home-2/",
+      // },
     //   {
     //     label: "Home Demo - 3",
     //     link: "/home-3/",
@@ -23,8 +23,8 @@ export const menus = [
     //     label: "Home Demo - 5",
     //     link: "/home-5/",
     //   },
-    // ],
-  },
+  //   ],
+  // },
   // {
   //   label: "Carrers",
   //   link: "/about-us/",
@@ -78,7 +78,7 @@ export const menus = [
     //     link: "/privacy-policy/",
     //   },
     // ],
-  // },
+  },
   {
     label: "Services",
     link: "#",
@@ -109,7 +109,7 @@ export const menus = [
     submenu: [
       {
         label: "G3 Sec.Ai",
-        link: "#",
+        link: "/home-2/",
         submenu: [
           {
             label: "TRACS",

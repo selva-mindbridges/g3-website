@@ -9,7 +9,7 @@ const OurChallenges: React.FC = () => {
         <div className="container">
           <div className="section-title white-title">
             <span>Our Challenges</span>
-            <h2>You Can Protect Your Organization’s Cybersecurity By Us</h2>
+            <h2>You Can Protect Your Organization’s Cybersecuity By Us</h2>
           </div>
 
           <div className="row">

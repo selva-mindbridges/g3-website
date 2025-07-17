@@ -9,17 +9,16 @@ const MainBanner: React.FC = () => {
       <div className="banner-area banner-area-two bg-2 jarallax">
         <div className="container">
           <div className="banner-content">
-            <span className="top-title">World Class Cyber Security</span>
-            <h1>Cyber Security Solutions Built On Customer Trust</h1>
+            {/* <span className="top-title">World Class Cyber Security</span> */}
+            <h1>Automate Controls. Assure Compliance. Accelerate Decision.</h1>
+            {/* <h1>Accelerate Decision.</h1> */}
             <p>
-              Cyber security is the protection from the theft to protect of our
-              computer systems and networks or being damaged of our hardware and
-              software.
+              Smarter governance, faster compliance, and intelligent oversight-all in one platform.
             </p>
 
-            <Link href="/about-us" className="default-btn">
+            {/* <Link href="/about-us" className="default-btn">
               <span>About Us</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

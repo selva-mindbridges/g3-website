@@ -9,8 +9,8 @@ const OurApproach: React.FC = () => {
       <div className="our-approach-area pb-70">
         <div className="container">
           <div className="section-title">
-            <span>Our Approach</span>
-            <h2>To Enhance Your Cyber Defences Expert Will Support</h2>
+            <h2> Built for Secure, Compliant Growth</h2>
+            <span>Empowering Smarter Governance with AI</span>
           </div>
 
           <div className="row align-items-center">
@@ -28,44 +28,42 @@ const OurApproach: React.FC = () => {
             <div className="col-lg-6">
               <div className="approach-content">
                 <h3>
-                  Without stopping for a moment we give you best technology
-                  experience discussing from our expertise to stop threats being
-                  theft or damaged.
+                  We blend domain expertise with intelligent automation to help you stay ahead of emerging threats, regulatory shifts, and vendor risks — without slowing down your business.
                 </h3>
 
                 <div className="row">
                   <div className="col-lg-6 col-sm-6">
                     <div className="single-approach">
-                      <h3>Trusted Partner</h3>
+                      <h3>Strategic Partner</h3>
                       <p>
-                        sed diam nonumy eirmod tempor invidunt ut labore et.
+                        The platform will work as an extension of your team — aligning security, compliance, and business objectives.
                       </p>
                     </div>
                   </div>
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="single-approach">
-                      <h3>Product Security</h3>
+                      <h3>Platform Security</h3>
                       <p>
-                        sed diam nonumy eirmod tempor invidunt ut labore et.
+                        Safeguard systems and data with AI-driven threat detection, control validation, and compliance monitoring.
                       </p>
                     </div>
                   </div>
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="single-approach">
-                      <h3>System Security</h3>
+                      <h3>System Assurance</h3>
                       <p>
-                        sed diam nonumy eirmod tempor invidunt ut labore et.
+                        From internal risks to third-party exposures, gain unified visibility across your entire risk landscape.
                       </p>
                     </div>
                   </div>
 
                   <div className="col-lg-6 col-sm-6">
                     <div className="single-approach">
-                      <h3>Operational Security</h3>
+                      <h3>Operational Resilience</h3>
                       <p>
-                        sed diam nonumy eirmod tempor invidunt ut labore et.
+                        Build continuous trust with real-time surveillance, automated assurance, and policy enforcement powered by AI.
                       </p>
                     </div>
                   </div>

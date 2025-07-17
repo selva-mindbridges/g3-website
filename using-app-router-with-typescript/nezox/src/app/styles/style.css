@@ -878,14 +878,14 @@ Banner Area Style
   font-weight: 600;
 }
 .banner-content h1 {
-  font-size: 47px;
+  font-size: 30px;
   font-weight: 900;
   margin-bottom: 25px;
 }
 .banner-content p {
   margin-bottom: 30px;
   color: #000;
-  font-size: 16.5px;
+  font-size: 15.5px;
   font-weight: 400;
 }
 
@@ -1009,7 +1009,7 @@ Feature Area Style
   margin-bottom: 0;
 }
 .single-feature:hover {
-  background-color: #e21f36;
+  background-color: #69bfa4;
   transform: translateY(-5px);
 }
 .single-feature:hover .title i {
