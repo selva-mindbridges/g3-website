@@ -11,7 +11,7 @@ const GetInTouchFormTwo: React.FC = () => {
           <div className="section-title">
             <span>Get In Touch</span>
             <h2>
-              Contact Us Today To Speak With An Expert About Your Specific Needs
+              Accelerate Governance with AI-Powered Automation
             </h2>
           </div>
 
@@ -56,7 +56,7 @@ const GetInTouchFormTwo: React.FC = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 col-md-6">
+              {/* <div className="col-lg-6 col-md-6">
                 <div className="form-group">
                   <label>Subject</label>
                   <input
@@ -66,9 +66,9 @@ const GetInTouchFormTwo: React.FC = () => {
                     required
                   />
                 </div>
-              </div>
+              </div> */}
 
-              <div className="col-lg-12 col-md-12">
+              {/* <div className="col-lg-12 col-md-12">
                 <div className="form-group">
                   <label>Message</label>
                   <textarea
@@ -79,11 +79,11 @@ const GetInTouchFormTwo: React.FC = () => {
                     required
                   />
                 </div>
-              </div>
+              </div> */}
 
               <div className="col-lg-12 col-sm-12">
                 <button type="submit" className="default-btn">
-                  Consultation
+                  Book Your Demo
                 </button>
               </div>
             </div>

@@ -23,21 +23,21 @@ export default function Page() {
 
       <OurApproach />
 
-      <OurChallenges />
+      {/* <OurChallenges /> */}
 
-      <Services />
+      {/* <Services />
 
-      <PriceTable />
-
+      <PriceTable /> */}
+{/* 
       <WhyChooseUs />
 
-      <TeamMember />
+      <TeamMember /> */}
 
       <GetInTouchFormTwo />
 
-      <div className="pt-100">
+      {/* <div className="pt-100">
         <LatestNews />
-      </div>
+      </div> */}
 
       <Footer />
     </>
