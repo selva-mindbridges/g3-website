@@ -306,10 +306,11 @@ Section Title Area Style*/
   font-weight: 600;
 }
 .section-title h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 15px;
   position: relative;
   line-height: 1.4;
+  font-weight: 700;
 }
 .section-title h2:last-child {
   margin-bottom: 0;
@@ -790,7 +791,7 @@ Banner Area Style
    background-size: cover;
 }
 .banner-area.bg-2 {
-  background-image: url(/images/banner/banner-bg-2.jpg);
+  background-image: url(/images/banner/banner-bg-6.png);
 }
 .banner-area.bg-4 {
   background-image: url(/images/banner/banner-bg-4.jpg);
@@ -2158,7 +2159,7 @@ Pricing Area Style
 Counter Area Style
 ======================================================*/
 .counter-area {
-  background-image: url(/images/counter-bg.jpg);
+  background-image: url(/images/counter-bg-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2178,8 +2179,10 @@ Counter Area Style
   z-index: -1;
 }
 .counter-area .section-title span {
-  color: #e21f36;
-  font-weight: 800;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: left;
+  font-size: 21px;
 }
 .counter-area .counter-max-wide {
   max-width: 810px;
@@ -2224,6 +2227,36 @@ Counter Area Style
   color: #000000;
   margin: 0;
 }
+
+.book-now-button {
+  background-color: #69bfa4;
+  color: white;
+  border: 4px solid #69bfa4;
+  border-radius: 50px;
+  padding: 0px 14px 1px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+/* .book-now-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 188, 212, 0.5);
+} */
+
+.book-now-button .arrow {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1px 12px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
 
 .single-counter {
   border: 1px solid #202132;

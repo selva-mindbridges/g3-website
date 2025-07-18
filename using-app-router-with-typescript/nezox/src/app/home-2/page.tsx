@@ -23,17 +23,17 @@ export default function Page() {
 
       <OurApproach />
 
-      {/* <OurChallenges /> */}
+      {/* /* <OurChallenges /> */
 
-      {/* <Services />
+      /* <Services />
 
-      <PriceTable /> */}
-{/* 
+      <PriceTable /> */ } 
+      
       <WhyChooseUs />
 
-      <TeamMember /> */}
+      {/* <TeamMember /> */
 
-      <GetInTouchFormTwo />
+      <GetInTouchFormTwo /> }
 
       {/* <div className="pt-100">
         <LatestNews />
