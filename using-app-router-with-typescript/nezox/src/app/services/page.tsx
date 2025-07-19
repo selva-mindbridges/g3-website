@@ -43,14 +43,14 @@ export default function Page() {
                   <h4>ABOUT</h4>
                   <h4>Why Do You Need VAPT?</h4>
                   <p>
-                    In today’s digital landscape, cyber threats are evolving
+                    {`In today’s digital landscape, cyber threats are evolving
                     rapidly, putting your critical assets and data at risk.
                     Vulnerability Assessment and Penetration Testing (VAPT)
                     helps identify and fix security gaps before attackers can
                     exploit them. It safeguards your business from data
                     breaches, ensures regulatory compliance, and builds trust
                     with customers. Proactively strengthen your defenses and
-                    stay ahead of threats with expert VAPT services.
+                    stay ahead of threats with expert VAPT services.`}
                     <b>Secure your organization today!</b>
                   </p>
                 </div>
@@ -160,11 +160,11 @@ export default function Page() {
                     </h3>
                   </div>
                   <p>
-                    Penetration Testing is a simulated cyberattack that helps
+                    {`Penetration Testing is a simulated cyberattack that helps
                     identify weaknesses in your IT systems, networks, and
                     applications. It’s your first line of defense to prevent
                     breaches, protect data, and ensure compliance with security
-                    standards.
+                    standards.`}
                   </p>
 
                   <div className="feature-shape">
@@ -214,14 +214,14 @@ export default function Page() {
                     <h3>Phishing Assessments</h3>
                   </div>
                   <p>
-                    Phishing assessments are simulated social engineering
+                    {`Phishing assessments are simulated social engineering
                     exercises designed to evaluate your organization's
                     susceptibility to phishing attacks. These assessments mimic
                     real-world phishing attempts to identify vulnerabilities in
                     employee awareness, response, and organizational security
                     practices. By testing and educating your team, phishing
                     assessments help reduce the risk of successful attacks and
-                    data breaches.
+                    data breaches.`}
                   </p>
 
                   <div className="feature-shape">
