@@ -15,7 +15,10 @@ const ContactForm: React.FC = () => {
                     <h2>Write Us</h2>
                   </div>
 
-                  <form id="contactForm">
+                  <form id="contactForm"
+                            action="https://formspree.io/f/myzpkgyb" 
+                            method="POST"                  
+                  >
                     <div className="row">
                       <div className="col-lg-6 col-md-6">
                         <div className="form-group">
