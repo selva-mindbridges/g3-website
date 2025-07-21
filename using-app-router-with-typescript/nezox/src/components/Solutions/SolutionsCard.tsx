@@ -462,7 +462,7 @@ const SolutionsCard: React.FC = () => {
                   <span>
                     TRACS connects to:
                   </span>
-                  <p>•	Cyber ratings (e.g., BitSight, SecurityScorecard)</p>
+                  <p>•	Cyber ratings</p>
 <p>•	ESG, financial, and reputational data</p>
 <p>•	Blacklists, sanctions, and threat feeds</p>
                   <p><strong>Results:</strong> Make smarter decisions with contextual, real-time third-party insights.</p>
