@@ -1,4 +1,4 @@
-name: Build and deploy Next.js app from subfolder to Azure Web App - G3CyberspaceWebsite
+name: Build and deploy Next.js app from subfolder to Azure Web App
 
 on:
   push:
@@ -9,11 +9,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
+
+    defaults:
+      run:
+        working-directory: using-app-router-with-typescript/nezox
 
     steps:
-      - name: Checkout source code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -21,21 +23,17 @@ jobs:
         with:
           node-version: '20.x'
 
-      - name: Install dependencies and build
-        working-directory: using-app-router-with-typescript/nezox
-        run: |
-          npm install
-          npm run build
+      - name: Install dependencies
+        run: npm install
 
-      - name: Zip build output
-        working-directory: using-app-router-with-typescript/nezox
-        run: zip -r release.zip .
+      - name: Build project
+        run: npm run build
 
-      - name: Upload build artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: nextjs-app
-          path: using-app-router-with-typescript/nezox/release.zip
+          name: app
+          path: using-app-router-with-typescript/nezox
 
   deploy:
     runs-on: ubuntu-latest
@@ -45,10 +43,8 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: nextjs-app
-
-      - name: Unzip artifact
-        run: unzip release.zip
+          name: app
+          path: .
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
