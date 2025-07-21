@@ -27,14 +27,14 @@ jobs:
         working-directory: using-app-router-with-typescript/nezox
         run: npm run build
 
-      - name: Export production build (optional)
+      - name: Export static site
         working-directory: using-app-router-with-typescript/nezox
-        run: npm run export || echo "Skipping export..."
+        run: npm run export
 
-      - name: Zip deployment package
+      - name: Zip static site
         run: |
-          cd using-app-router-with-typescript/nezox
-          zip -r ../../app.zip .
+          cd using-app-router-with-typescript/nezox/out
+          zip -r ../../../app.zip .
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
