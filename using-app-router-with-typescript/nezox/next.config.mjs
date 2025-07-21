@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export', // Use export since it's a static site
+  optimizeFonts: false,
 };
 
 export default nextConfig;
