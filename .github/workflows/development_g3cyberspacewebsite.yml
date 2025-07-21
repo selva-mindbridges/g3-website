@@ -1,4 +1,4 @@
-name: Build and deploy Next.js (Nezox) to Azure Web App - G3CyberspaceWebsite
+name: Build and deploy Next.js app from subfolder to Azure Web App - G3CyberspaceWebsite
 
 on:
   push:
@@ -9,53 +9,50 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
-    defaults:
-      run:
-        working-directory: development/using-app-router-with-typescript/nezox
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Set up Node.js version
-        uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: '20.x'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install dependencies and build
+        working-directory: using-app-router-with-typescript/nezox
+        run: |
+          npm install
+          npm run build
 
-      - name: Build Next.js app
-        run: npm run build
+      - name: Zip build output
+        run: |
+          cd using-app-router-with-typescript/nezox
+          zip -r ../../release.zip .
 
-      - name: Zip artifact for deployment
-        run: zip -r release.zip .next public package.json next.config.mjs node_modules
-
-      - name: Upload artifact for deployment job
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: nextjs-app
-          path: development/using-app-router-with-typescript/nezox/release.zip
+          name: node-app
+          path: release.zip
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
 
     steps:
-      - name: Download artifact from build job
+      - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: nextjs-app
+          name: node-app
 
-      - name: Unzip artifact for deployment
-        run: unzip release.zip
+      - name: Unzip artifact
+        run: unzip release.zip -d app
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'G3CyberspaceWebsite'
           slot-name: 'Production'
+          package: app
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_430EE00D71C14B53891E25A4B895FA9B }}
-          package: .
