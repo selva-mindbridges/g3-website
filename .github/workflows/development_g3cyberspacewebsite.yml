@@ -9,9 +9,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
-      - name: Checkout code
+      - name: Checkout source code
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -26,15 +28,14 @@ jobs:
           npm run build
 
       - name: Zip build output
-        run: |
-          cd using-app-router-with-typescript/nezox
-          zip -r ../../release.zip .
+        working-directory: using-app-router-with-typescript/nezox
+        run: zip -r release.zip .
 
-      - name: Upload artifact
+      - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: node-app
-          path: release.zip
+          name: nextjs-app
+          path: using-app-router-with-typescript/nezox/release.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -44,15 +45,15 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: node-app
+          name: nextjs-app
 
       - name: Unzip artifact
-        run: unzip release.zip -d app
+        run: unzip release.zip
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'G3CyberspaceWebsite'
           slot-name: 'Production'
-          package: app
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_430EE00D71C14B53891E25A4B895FA9B }}
