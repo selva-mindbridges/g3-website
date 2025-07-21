@@ -1,13 +1,10 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  optimizeFonts: false,
-  output: 'standalone',
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  output: 'export', // Use export since it's a static site
 };
 
 export default nextConfig;
