@@ -3,9 +3,9 @@ const nextConfig = {
   output: 'standalone',
   trailingSlash: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
-  optimizeFonts: false
+  optimizeFonts: false,
 };
 
 export default nextConfig;
