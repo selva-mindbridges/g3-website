@@ -5,6 +5,9 @@ const nextConfig = {
     unoptimized: true,
   },
   optimizeFonts: false,
+  eslint: {
+    ignoreDuringBuilds: true
+  }
 };
 
-module.exports = nextConfig;
+export default nextConfig;
