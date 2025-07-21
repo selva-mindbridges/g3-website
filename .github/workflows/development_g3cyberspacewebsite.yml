@@ -1,4 +1,4 @@
-name: Build and Deploy Next.js App from Subfolder to Azure
+name: Build and Deploy Static Next.js App to Azure App Service
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
         working-directory: using-app-router-with-typescript/nezox
         run: npm run export
 
-      - name: Zip static site
+      - name: Zip exported static site
         run: |
           cd using-app-router-with-typescript/nezox/out
           zip -r ../../../app.zip .
@@ -39,7 +39,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'G3CyberspaceWebsite'
+          app-name: 'G3CyberspaceWebsite'  # Change if different
           slot-name: 'Production'
           package: app.zip
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_430EE00D71C14B53891E25A4B895FA9B }}
