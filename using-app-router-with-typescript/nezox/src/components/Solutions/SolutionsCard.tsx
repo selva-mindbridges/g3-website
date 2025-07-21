@@ -39,7 +39,8 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/virtual ciso.webp"
+                className="mt-4"
+                  src="/images/TRACS.png"
                   alt="Image"
                   width={498}
                   height={386}                  
