@@ -59,4 +59,4 @@ jobs:
           app-name: 'G3CyberspaceWebsite'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_430EE00D71C14B53891E25A4B895FA9B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3C7810A20B0645AEA88AE0D1EE20E58E }}
