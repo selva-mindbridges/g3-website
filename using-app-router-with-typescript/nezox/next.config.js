@@ -1,7 +1,7 @@
+// nezox/next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    trailingSlash: true,
+    output: 'standalone', // crucial for Azure App Service
   };
   
   module.exports = nextConfig;

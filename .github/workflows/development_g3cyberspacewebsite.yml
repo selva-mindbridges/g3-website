@@ -1,4 +1,4 @@
-name: Build and Deploy Static Next.js App to Azure
+name: Build and Deploy Standalone Next.js App to Azure
 
 on:
   push:
@@ -27,17 +27,15 @@ jobs:
         working-directory: using-app-router-with-typescript/nezox
         run: npm run build
 
-      - name: Export static site
-        working-directory: using-app-router-with-typescript/nezox
-        run: npm run export
-
-      - name: Copy web.config to /out folder
-        run: cp using-app-router-with-typescript/nezox/public/web.config using-app-router-with-typescript/nezox/out/web.config
-
-      - name: Zip exported static site
+      - name: Prepare deployable zip
         run: |
-          cd using-app-router-with-typescript/nezox/out
-          zip -r ../../../app.zip .
+          mkdir build_output
+          cp -r using-app-router-with-typescript/nezox/.next/standalone/* build_output/
+          cp -r using-app-router-with-typescript/nezox/.next/static build_output/.next/
+          cp -r using-app-router-with-typescript/nezox/public build_output/
+          cp using-app-router-with-typescript/nezox/web.config build_output/
+          cd build_output
+          zip -r ../app.zip .
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
