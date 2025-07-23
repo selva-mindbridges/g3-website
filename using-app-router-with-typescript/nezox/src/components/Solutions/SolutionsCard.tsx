@@ -475,7 +475,7 @@ const SolutionsCard: React.FC = () => {
             <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
-                  src="/images/TRACS/360 degree compliance.png "
+                  src="/images/TRACS/360 degree compliance.png"
                   alt="Image"
                   width={498}
                   height={386}
