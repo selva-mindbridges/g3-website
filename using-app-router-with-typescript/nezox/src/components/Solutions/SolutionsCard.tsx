@@ -4,8 +4,45 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import classes from "./style.module.css"
+import Animation from "../Layouts/ImageAnimate/Animation";
+import { useRef, useEffect, useState } from "react";
 
 const SolutionsCard: React.FC = () => {
+
+    const imageRef = useRef(null);
+    const [isVisible, setIsVisible] = useState(false);
+    const [imageSrc, setImageSrc] = useState("/images/TRACS/Smart questionnaire.jpg");
+
+  //  console.log(isVisible);
+
+    useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+           const visible = entry.isIntersecting;
+      setIsVisible(visible);
+        
+          //  console.log(entry)
+         // Change image based on visibility
+      if (visible) {
+        setImageSrc("/images/TRACS/Risk Based Questionnaire Scoping.jpg");
+      } else {
+        setImageSrc(imageSrc);
+      }
+      },
+      { threshold: 0.3 } // 30% visible
+    );
+
+    if (imageRef.current) {
+      observer.observe(imageRef.current);
+    }
+
+    return () => {
+      if (imageRef.current) {
+        observer.unobserve(imageRef.current);
+      }
+    };
+  }, []);
+
   return (
     <>
 
@@ -263,23 +300,27 @@ const SolutionsCard: React.FC = () => {
 
 
       <div className="about-us-area mt-4">
-        <div className="container">
+        {/* <div className="container smart-title">
           <h2 className={`${classes.textCenter}`}>Smart Questionnaire Automation</h2>
-          <br />
-          <br />
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="about-img mb_30">
-                <Image
-                  src="/images/TRACS/Smart questionnaire.jpg"
-                  alt="Image"
-                  width={498}
-                  height={386}
-                />
-              </div>
-            </div>
+          
+          <div className="row align-items-center"> */}
+            <Animation />
+       </div>
+           {/* <div className="col-lg-6">
+  <div className="about-img mb_30" ref={imageRef}>
+    <Image
+      className={`pre-scroll ${isVisible ? "scroll-animate" : ""}`}
+      style={{ width: "80%", height: "auto" }}
+      src={imageSrc}
+      alt="Dynamic Image"
+      width={498}
+      height={386}
+    />
+  </div>
+</div> */}
 
-            <div className="col-lg-6">
+
+            {/* <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
                   <h2>Trigger assessments based on risk level and business context</h2>
@@ -297,17 +338,29 @@ const SolutionsCard: React.FC = () => {
                   <p><strong>Results:</strong> Vendors receive only the questions that matter — saving time, improving accuracy, and ensuring complete risk coverage.</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </div> */}
+        {/* </div>
+      </div> */}
 
-      <div className="about-us-area mt-4">
+      {/* <div className="about-us-area mt-4">
         <div className="container">
           <div className="row align-items-center">
             <br />
-            <br />
-            <div className="col-lg-6">
+            <br /> */}
+           
+
+            {/* <div className="col-lg-6">
+              <div className="about-img mb_30">
+                <Image
+                  src="/images/TRACS/Risk Based Questionnaire Scoping.jpg"
+                  alt="Image"
+                  width={498}
+                  height={386}
+                />
+              </div>
+            </div> */}
+{/* 
+             <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
                      <h2>Risk-Based Questionnaire Scoping</h2>
@@ -323,29 +376,18 @@ const SolutionsCard: React.FC = () => {
                 
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="about-img mb_30">
-                <Image
-                  src="/images/TRACS/Risk Based Questionnaire Scoping.jpg"
-                  alt="Image"
-                  width={498}
-                  height={386}
-                />
-              </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div>
         </div>
-      </div>
-
+      </div> */}
+{/* 
       <br />
-      <br />
+      <br /> */}
 
-      <div className="about-us-area mt-4">
+      {/* <div className="about-us-area mt-4">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
+          <div className="row align-items-center"> */}
+            {/* <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
                   src="/images/TRACS/AI Driven Evidence Review.jpg"
@@ -354,9 +396,9 @@ const SolutionsCard: React.FC = () => {
                   height={386}
                 />
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
                      <h2>AI-Driven Evidence Review</h2>
@@ -372,17 +414,32 @@ const SolutionsCard: React.FC = () => {
                 
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="about-us-area mt-4">
+      {/* <div className="about-us-area mt-4">
         <div className="container">
           <div className="row align-items-center">
             <br />
-            <br />
+            <br /> */}
+            
+
+{/* 
             <div className="col-lg-6">
+              <div className="about-img mb_30">
+                <Image
+                  src="/images/TRACS/POst contract compliance monitoring.png"
+                  alt="Image"
+                  width={498}
+                  height={386}
+                />
+              </div>
+            </div> */}
+
+
+            {/* <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
                      <h2>Post-Contract Compliance Monitoring</h2>
@@ -398,26 +455,15 @@ const SolutionsCard: React.FC = () => {
                 
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="about-img mb_30">
-                <Image
-                  src="/images/TRACS/POst contract compliance monitoring.png"
-                  alt="Image"
-                  width={498}
-                  height={386}
-                />
-              </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div>
         </div>
-      </div>
+      </div> */}
 
-       <div className="about-us-area mt-4">
+       {/* <div className="about-us-area mt-4">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
+          <div className="row align-items-center"> */}
+            {/* <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
                   src="/images/TRACS/Global COmpliance support.png"
@@ -426,9 +472,9 @@ const SolutionsCard: React.FC = () => {
                   height={386}
                 />
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
                      <h2>Global Compliance Support</h2>
@@ -444,17 +490,30 @@ const SolutionsCard: React.FC = () => {
                 
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="about-us-area mt-4">
+      {/* <div className="about-us-area mt-4">
         <div className="container">
           <div className="row align-items-center">
-            <br />
-            <br />
-            <div className="col-lg-6">
+            <br /> */}
+         
+{/*           
+            <div className="col-lg-6 mt-5">
+              <div className="about-img mb_30">
+                <Image
+                  src="/images/TRACS/360 degree compliance.png"
+                  alt="Image"
+                  width={498}
+                  height={386}
+                />
+              </div>
+            </div>
+             */}
+
+             {/* <div className="col-lg-6 ">
               <div className="about-content">
                 <div className="about-title">
                      <h2>360° Risk Intelligence Integration</h2>
@@ -470,26 +529,17 @@ const SolutionsCard: React.FC = () => {
                 
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-6">
-              <div className="about-img mb_30">
-                <Image
-                  src="/images/TRACS/360 degree compliance.png"
-                  alt="Image"
-                  width={498}
-                  height={386}
-                />
-              </div>
-            </div>
+{/*   
           </div>
         </div>
-      </div>
+      </div> */}
 
-       <div className="about-us-area mt-4">
+       {/* <div className="about-us-area mt-4">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
+          <div className="row align-items-center"> */}
+            {/* <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
                   src="/images/TRACS/Enterprise ready integrations & API.jpg"
@@ -498,9 +548,9 @@ const SolutionsCard: React.FC = () => {
                   height={386}
                 />
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
                      <h2>Enterprise-Ready Integrations & API</h2>
@@ -516,17 +566,29 @@ const SolutionsCard: React.FC = () => {
                 
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="about-us-area mt-4">
+      {/* <div className="about-us-area mt-4">
         <div className="container">
           <div className="row align-items-center">
             <br />
             <br />
-            <div className="col-lg-6">
+           */}
+            {/* <div className="col-lg-6">
+              <div className="about-img mb_30">
+                <Image
+                  src="/images/TRACS/Visual Dashboards & reporting.jpg"
+                  alt="Image"
+                  width={498}
+                  height={386}
+                />
+              </div>
+            </div> */}
+
+             {/* <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
                      <h2>Visual Dashboards & Reporting</h2>
@@ -542,26 +604,16 @@ const SolutionsCard: React.FC = () => {
                 
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-6">
-              <div className="about-img mb_30">
-                <Image
-                  src="/images/TRACS/Visual Dashboards & reporting.jpg"
-                  alt="Image"
-                  width={498}
-                  height={386}
-                />
-              </div>
-            </div>
-          </div>
+          {/* </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="about-us-area mb-5 mt-4">
+      {/* <div className="about-us-area mb-5 mt-4">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
+          <div className="row align-items-center"> */}
+            {/* <div className="col-lg-6">
               <div className="about-img mb_30">
                 <Image
                   src="/images/TRACS/User roles & workflow automation.jpg"
@@ -570,9 +622,9 @@ const SolutionsCard: React.FC = () => {
                   height={386}
                 />
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="about-content">
                 <div className="about-title">
                      <h2>User Roles & Workflow Automation</h2>
@@ -588,10 +640,10 @@ const SolutionsCard: React.FC = () => {
                 
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
