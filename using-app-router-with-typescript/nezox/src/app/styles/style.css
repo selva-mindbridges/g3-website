@@ -937,9 +937,6 @@ Feature Area Style
   margin-top: 0;
   position: relative;
   transition: all ease 0.5s;
-  border-radius: 80%;
-  padding: 80px;
-  padding-right: 40px;
 }
 .feature-area.feature-area-two .single-feature .feature-shape {
   position: absolute;
@@ -953,7 +950,7 @@ Feature Area Style
   background-color: #69bfa4;
 }
 .feature-area.feature-area-two .single-feature:hover i {
-  color: #000000;
+  color: #ffffff;
 }
 .feature-area.feature-area-three {
   z-index: 1;
@@ -969,19 +966,19 @@ Feature Area Style
   background-color: #000219;
 }
 .feature-area.feature-area-four .single-feature h3 {
-  color: #0b0606;
+  color: #ffffff;
 }
 .feature-area.feature-area-four .single-feature p {
-  color: #000000;
+  color: #ffffff;
 }
 .feature-area.feature-area-five .single-feature {
   background-color: #000219;
 }
 .feature-area.feature-area-five .single-feature h3 {
-  color: #070404;
+  color: #ffffff;
 }
 .feature-area.feature-area-five .single-feature p {
-  color: #000000;
+  color: #ffffff;
 }
 
 .single-feature {
@@ -1007,31 +1004,25 @@ Feature Area Style
 .single-feature .title h3 {
   transition: all ease 0.5s;
   padding-left: 65px;
-  padding-top: 8px;
+  padding-top: 12px;
 }
 .single-feature p {
   transition: all ease 0.5s;
   margin-bottom: 0;
 }
 .single-feature:hover {
-
   background-color: #69bfa4;
-  background: linear-gradient(145deg, #1fe23c, #5a94f7);
-  transform: translateY(-5px);
-  transition: all 0.5s ease;
-
   transform: translateY(-5px);
 }
 .single-feature:hover .title i {
   transform: rotateY(360deg);
-  color: #020101;
-   animation: spin 1s ease-in-out forwards;
+  color: #ffffff;
 }
 .single-feature:hover .title h3 {
-  color: #000000;
+  color: #ffffff;
 }
 .single-feature:hover p {
-  color: #000000;
+  color: #ffffff;
 }
 
 @keyframes spin {
