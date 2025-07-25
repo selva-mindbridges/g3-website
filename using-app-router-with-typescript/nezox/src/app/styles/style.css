@@ -1025,6 +1025,76 @@ Feature Area Style
   color: #ffffff;
 }
 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.smart-title{
+  margin-bottom: 600px;
+}
+
+.smart-questionnaire{
+ margin:0px 0 0 505px;
+}
+
+.solution-container {
+  display: flex;
+}
+
+.image-sticky {
+  position: sticky;
+  top: 40px;
+  left: 135px;
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-scroll {
+  flex: 2;
+  padding-left: 40px;
+}
+
+.content-section {
+  height: 100vh;
+  margin-bottom: 60px;
+}
+.content-area{
+  margin: 265px 0 0 300px;
+  display: inline-block;
+}
+
+.animated-image {
+  transition: all 0.6s ease-in-out;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-scale {
+  opacity: 0.4;
+  transform: scale(1.05);
+}
+.blue-para{
+  color: #4096b5;
+}
+.dot{
+  font-weight: 700;
+  margin-right: 8px;
+}
+.list{
+  font-size: large;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.last-para{
+  margin-top: 10px;
+}
+.result{
+  color: #4b5280;
+  font-weight: 700;
+}
 /*
 Our Approach Area Style
 ======================================================*/
